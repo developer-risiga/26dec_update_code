@@ -1,0 +1,1423 @@
+2025-12-16 11:37:15,040 - __main__ - INFO - ✅ Microphone initialized successfully
+2025-12-16 11:37:15,063 - __main__ - ERROR - pyttsx3 initialization failed: libespeak.so.1: cannot open shared object file: No such file or directory
+2025-12-16 11:37:15,064 - __main__ - WARNING - ⚠️ No TTS engine available, text will be displayed only
+2025-12-16 11:37:15,064 - __main__ - INFO - 🚀 Butler Assistant initialized
+2025-12-16 11:37:19,998 - __main__ - INFO - 👂 Listening...
+2025-12-16 11:37:25,617 - __main__ - INFO - 👂 Listening...
+2025-12-16 11:37:30,032 - __main__ - INFO - ✅ Recognized (en): 'I need a plumber hey Butler'
+2025-12-16 11:37:35,243 - __main__ - INFO - 👂 Listening...
+2025-12-16 11:37:38,190 - __main__ - INFO - ✅ Recognized (en): 'I need a plumber'
+2025-12-16 11:37:38,190 - __main__ - WARNING - ❌ No service detected in: 'I need a plumber'
+2025-12-16 11:38:10,971 - __main__ - INFO - ✅ Microphone initialized successfully
+2025-12-16 11:38:10,978 - __main__ - ERROR - pyttsx3 initialization failed: libespeak.so.1: cannot open shared object file: No such file or directory
+2025-12-16 11:38:10,978 - __main__ - WARNING - ⚠️ No TTS engine available, text will be displayed only
+2025-12-16 11:38:10,979 - __main__ - INFO - 🚀 Butler Assistant initialized
+2025-12-16 11:38:15,832 - __main__ - INFO - 👂 Listening...
+2025-12-16 11:38:21,185 - __main__ - INFO - 👂 Listening...
+2025-12-16 11:38:29,152 - __main__ - INFO - ⏳ No speech detected
+2025-12-16 11:38:29,194 - __main__ - INFO - 👂 Listening...
+2025-12-16 11:38:37,158 - __main__ - INFO - ⏳ No speech detected
+2025-12-16 11:38:37,214 - __main__ - INFO - 👂 Listening...
+2025-12-16 11:38:45,187 - __main__ - INFO - ⏳ No speech detected
+2025-12-16 11:38:45,241 - __main__ - INFO - 👂 Listening...
+2025-12-16 11:52:34,990 - __main__ - INFO - 🎤 Calibrating microphone...
+2025-12-16 11:52:36,991 - __main__ - INFO - ✅ Microphone initialized (index: 1)
+2025-12-16 11:52:37,418 - __main__ - INFO - ✅ pyttsx3 TTS engine initialized
+2025-12-16 11:52:37,503 - __main__ - INFO - 🚀 Butler Assistant initialized
+2025-12-16 11:52:37,504 - __main__ - INFO - 👂 Wake word detection started
+2025-12-16 11:52:48,485 - __main__ - INFO - ✅ Wake word detected: 'butler' in 'high butler'
+2025-12-16 11:53:05,784 - __main__ - INFO - ✅ Wake word detected: 'hey butler' in 'hey butler'
+2025-12-16 11:53:29,225 - __main__ - INFO - ✅ Wake word detected: 'butler' in 'butler'
+2025-12-17 11:53:52,899 - device.device_manager - INFO - Initializing hardware components
+2025-12-17 11:53:52,905 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-17 11:53:53,029 - __main__ - ERROR - ❌ Microphone init failed: 'NoneType' object has no attribute 'close'
+2025-12-17 11:53:53,032 - __main__ - INFO - 🚀 Production Butler Initialized
+2025-12-17 11:53:53,032 - __main__ - INFO - 🔄 Starting production voice loop...
+2025-12-17 11:53:53,032 - __main__ - INFO - 🎤 Enhanced listening started...
+2025-12-17 11:53:53,032 - __main__ - ERROR - ❌ Microphone required for voice-only mode
+2025-12-17 11:53:53,032 - __main__ - ERROR - ❌ Error in voice loop: Microphone not available. Check USB connection.
+2025-12-17 11:53:58,033 - __main__ - INFO - 🎤 Enhanced listening started...
+2025-12-17 11:53:58,033 - __main__ - ERROR - ❌ Microphone required for voice-only mode
+2025-12-17 11:53:58,033 - __main__ - ERROR - ❌ Error in voice loop: Microphone not available. Check USB connection.
+2025-12-17 12:50:27,976 - device.device_manager - INFO - Initializing hardware components
+2025-12-17 12:50:27,980 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-17 12:50:30,502 - __main__ - INFO - ✅ Microphone initialized: 0
+2025-12-17 12:50:30,503 - __main__ - INFO - 🚀 Production Butler Initialized
+2025-12-17 12:50:30,503 - __main__ - INFO - 🔄 Starting production voice loop...
+2025-12-17 12:50:30,503 - __main__ - INFO - 🎤 Enhanced listening started...
+2025-12-17 12:50:30,503 - enhanced_voice - INFO - ✅ Enhanced Voice Recognizer Initialized
+2025-12-17 12:50:30,504 - __main__ - INFO - 🎤 Initialized enhanced voice recognizer
+2025-12-17 12:50:30,504 - enhanced_voice - INFO - 🔧 Calibrating microphone...
+2025-12-17 12:50:32,999 - enhanced_voice - INFO - 📊 CAPPED threshold from 27680.42 to 300
+2025-12-17 12:50:32,999 - enhanced_voice - INFO - 🎤 Listening in real-time mode...
+2025-12-17 12:50:32,999 - enhanced_voice - INFO - 🎤 Starting audio capture stream...
+2025-12-17 12:50:33,000 - enhanced_voice - INFO - 🔄 Starting audio processing thread...
+2025-12-17 12:50:41,086 - __main__ - INFO - ⏰ No speech detected in enhanced mode
+2025-12-17 12:50:41,587 - __main__ - INFO - 🎤 Enhanced listening started...
+2025-12-17 12:50:41,587 - enhanced_voice - INFO - 🎤 Listening in real-time mode...
+2025-12-17 12:50:41,588 - enhanced_voice - INFO - 🎤 Starting audio capture stream...
+2025-12-17 12:50:41,588 - enhanced_voice - INFO - 🔄 Starting audio processing thread...
+2025-12-17 12:50:49,618 - __main__ - INFO - ⏰ No speech detected in enhanced mode
+2025-12-17 12:50:50,119 - __main__ - INFO - 🎤 Enhanced listening started...
+2025-12-17 12:50:50,119 - enhanced_voice - INFO - 🎤 Listening in real-time mode...
+2025-12-17 12:50:50,120 - enhanced_voice - INFO - 🎤 Starting audio capture stream...
+2025-12-17 12:50:50,120 - enhanced_voice - INFO - 🔄 Starting audio processing thread...
+2025-12-17 12:50:55,622 - __main__ - INFO - ⏹️ Shutdown requested by user
+2025-12-17 13:08:26,655 - device.device_manager - INFO - Initializing hardware components
+2025-12-17 13:08:26,663 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-17 13:08:29,116 - __main__ - INFO - ✅ Microphone initialized: 0
+2025-12-17 13:08:29,117 - __main__ - INFO - 🚀 Production Butler Initialized
+2025-12-17 13:08:29,117 - __main__ - INFO - 🔄 Starting production voice loop...
+2025-12-17 13:08:29,117 - __main__ - INFO - 🎤 Enhanced listening started...
+2025-12-17 13:08:29,118 - enhanced_voice - INFO - ✅ Enhanced Voice Recognizer Initialized
+2025-12-17 13:08:29,118 - __main__ - INFO - 🎤 Initialized enhanced voice recognizer
+2025-12-17 13:08:29,118 - enhanced_voice - INFO - 🔧 Calibrating microphone...
+2025-12-17 13:08:31,873 - enhanced_voice - INFO - 📊 Calibrated energy threshold: 5957.95
+2025-12-17 13:08:31,873 - enhanced_voice - INFO - 🎤 Listening in real-time mode...
+2025-12-17 13:08:31,873 - enhanced_voice - INFO - 🎤 Starting audio capture stream...
+2025-12-17 13:08:31,874 - enhanced_voice - INFO - 🔄 Starting audio processing thread...
+2025-12-17 13:08:39,954 - __main__ - INFO - ⏰ No speech detected in enhanced mode
+2025-12-17 13:08:40,455 - __main__ - INFO - 🎤 Enhanced listening started...
+2025-12-17 13:08:40,455 - enhanced_voice - INFO - 🎤 Listening in real-time mode...
+2025-12-17 13:08:40,455 - enhanced_voice - INFO - 🎤 Starting audio capture stream...
+2025-12-17 13:08:40,456 - enhanced_voice - INFO - 🔄 Starting audio processing thread...
+2025-12-17 13:08:48,488 - __main__ - INFO - ⏰ No speech detected in enhanced mode
+2025-12-17 13:08:48,989 - __main__ - INFO - 🎤 Enhanced listening started...
+2025-12-17 13:08:48,989 - enhanced_voice - INFO - 🎤 Listening in real-time mode...
+2025-12-17 13:08:48,989 - enhanced_voice - INFO - 🎤 Starting audio capture stream...
+2025-12-17 13:08:48,989 - enhanced_voice - INFO - 🔄 Starting audio processing thread...
+2025-12-17 13:08:57,047 - __main__ - INFO - ⏰ No speech detected in enhanced mode
+2025-12-17 13:08:57,548 - __main__ - INFO - 🎤 Enhanced listening started...
+2025-12-17 13:08:57,548 - enhanced_voice - INFO - 🎤 Listening in real-time mode...
+2025-12-17 13:08:57,548 - enhanced_voice - INFO - 🎤 Starting audio capture stream...
+2025-12-17 13:08:57,549 - enhanced_voice - INFO - 🔄 Starting audio processing thread...
+2025-12-17 13:09:01,050 - __main__ - INFO - ⏹️ Shutdown requested by user
+2025-12-17 13:09:44,365 - device.device_manager - INFO - Initializing hardware components
+2025-12-17 13:09:44,370 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-17 13:09:47,034 - __main__ - INFO - ✅ Microphone initialized: 0
+2025-12-17 13:09:47,034 - __main__ - INFO - 🚀 Production Butler Initialized
+2025-12-17 13:09:47,034 - __main__ - INFO - 🔄 Starting production voice loop...
+2025-12-17 13:09:47,035 - __main__ - INFO - 🎤 Enhanced listening started...
+2025-12-17 13:09:47,035 - enhanced_voice - INFO - ✅ Enhanced Voice Recognizer Initialized
+2025-12-17 13:09:47,035 - __main__ - INFO - 🎤 Initialized enhanced voice recognizer
+2025-12-17 13:09:47,035 - enhanced_voice - INFO - 🔧 Calibrating microphone...
+2025-12-17 13:09:49,494 - enhanced_voice - INFO - 📊 Calibrated energy threshold: 30920.73
+2025-12-17 13:09:49,494 - enhanced_voice - INFO - 🎤 Listening in real-time mode...
+2025-12-17 13:09:49,495 - enhanced_voice - INFO - 🎤 Starting audio capture stream...
+2025-12-17 13:09:49,495 - enhanced_voice - INFO - 🔄 Starting audio processing thread...
+2025-12-17 13:09:57,998 - __main__ - INFO - ⏰ No speech detected in enhanced mode
+2025-12-17 13:09:58,499 - __main__ - INFO - 🎤 Enhanced listening started...
+2025-12-17 13:09:58,499 - enhanced_voice - INFO - 🎤 Listening in real-time mode...
+2025-12-17 13:09:58,500 - enhanced_voice - INFO - 🎤 Starting audio capture stream...
+2025-12-17 13:09:58,500 - enhanced_voice - INFO - 🔄 Starting audio processing thread...
+2025-12-17 13:10:06,574 - __main__ - INFO - ⏰ No speech detected in enhanced mode
+2025-12-17 13:10:07,075 - __main__ - INFO - 🎤 Enhanced listening started...
+2025-12-17 13:10:07,075 - enhanced_voice - INFO - 🎤 Listening in real-time mode...
+2025-12-17 13:10:07,076 - enhanced_voice - INFO - 🎤 Starting audio capture stream...
+2025-12-17 13:10:07,076 - enhanced_voice - INFO - 🔄 Starting audio processing thread...
+2025-12-17 13:10:15,109 - __main__ - INFO - ⏰ No speech detected in enhanced mode
+2025-12-17 13:10:15,610 - __main__ - INFO - 🎤 Enhanced listening started...
+2025-12-17 13:10:15,610 - enhanced_voice - INFO - 🎤 Listening in real-time mode...
+2025-12-17 13:10:15,611 - enhanced_voice - INFO - 🎤 Starting audio capture stream...
+2025-12-17 13:10:15,611 - enhanced_voice - INFO - 🔄 Starting audio processing thread...
+2025-12-17 13:10:18,613 - __main__ - INFO - ⏹️ Shutdown requested by user
+2025-12-17 13:21:15,393 - device.device_manager - INFO - Initializing hardware components
+2025-12-17 13:21:15,397 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-17 13:21:17,777 - __main__ - INFO - ✅ Microphone initialized: 0
+2025-12-17 13:21:17,777 - __main__ - INFO - 🚀 Production Butler Initialized
+2025-12-17 13:21:17,778 - __main__ - INFO - 🔄 Starting production voice loop...
+2025-12-17 13:21:17,778 - __main__ - INFO - 🎤 Enhanced listening started...
+2025-12-17 13:21:17,778 - enhanced_voice - INFO - ✅ Enhanced Voice Recognizer Initialized
+2025-12-17 13:21:17,778 - __main__ - INFO - 🎤 Initialized enhanced voice recognizer
+2025-12-17 13:21:17,778 - enhanced_voice - INFO - 🔧 Calibrating microphone...
+2025-12-17 13:21:20,389 - enhanced_voice - INFO - 📊 Calibrated energy threshold: 31703.14
+2025-12-17 13:21:20,390 - enhanced_voice - INFO - 🎤 Listening in real-time mode...
+2025-12-17 13:21:20,390 - enhanced_voice - INFO - 🎤 Starting audio capture stream...
+2025-12-17 13:21:20,391 - enhanced_voice - INFO - 🔄 Starting audio processing thread...
+2025-12-17 13:21:28,475 - __main__ - INFO - ⏰ No speech detected in enhanced mode
+2025-12-17 13:21:28,976 - __main__ - INFO - 🎤 Enhanced listening started...
+2025-12-17 13:21:28,976 - enhanced_voice - INFO - 🎤 Listening in real-time mode...
+2025-12-17 13:21:28,976 - enhanced_voice - INFO - 🎤 Starting audio capture stream...
+2025-12-17 13:21:28,977 - enhanced_voice - INFO - 🔄 Starting audio processing thread...
+2025-12-17 13:21:37,008 - __main__ - INFO - ⏰ No speech detected in enhanced mode
+2025-12-17 13:21:37,508 - __main__ - INFO - 🎤 Enhanced listening started...
+2025-12-17 13:21:37,509 - enhanced_voice - INFO - 🎤 Listening in real-time mode...
+2025-12-17 13:21:37,509 - enhanced_voice - INFO - 🎤 Starting audio capture stream...
+2025-12-17 13:21:37,509 - enhanced_voice - INFO - 🔄 Starting audio processing thread...
+2025-12-17 13:21:41,084 - __main__ - INFO - ⏹️ Shutdown requested by user
+2025-12-17 15:06:04,554 - device.device_manager - INFO - Initializing hardware components
+2025-12-17 15:06:04,559 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-17 15:06:07,173 - __main__ - INFO - ✅ Microphone initialized: 0
+2025-12-17 15:06:07,173 - __main__ - INFO - 🚀 Production Butler Initialized
+2025-12-17 15:06:07,173 - __main__ - INFO - 🔄 Starting production voice loop...
+2025-12-17 15:06:07,173 - __main__ - INFO - 🎤 Enhanced listening started...
+2025-12-17 15:06:07,174 - enhanced_voice - INFO - ✅ Enhanced Voice Recognizer Initialized
+2025-12-17 15:06:07,174 - __main__ - INFO - 🎤 Initialized enhanced voice recognizer
+2025-12-17 15:06:07,174 - enhanced_voice - INFO - 🔧 PRODUCTION Calibration...
+2025-12-17 15:37:56,715 - device.device_manager - INFO - Initializing hardware components
+2025-12-17 15:37:56,719 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-17 16:00:38,884 - device.device_manager - INFO - Initializing hardware components
+2025-12-17 16:00:38,889 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-17 16:00:38,906 - enhanced_voice - INFO - ✅ Enhanced Voice Recognizer Initialized
+2025-12-17 16:00:38,906 - __main__ - INFO - 🚀 Production Butler Initialized
+2025-12-17 16:00:38,906 - __main__ - INFO - 🔄 Starting production voice loop...
+2025-12-17 16:00:38,906 - __main__ - ERROR - ❌ Error in voice loop: 'ProductionButler' object has no attribute 'enhanced_listen_for_command'
+2025-12-17 16:00:43,911 - __main__ - ERROR - ❌ Error in voice loop: 'ProductionButler' object has no attribute 'enhanced_listen_for_command'
+2025-12-17 16:05:56,268 - device.device_manager - INFO - Initializing hardware components
+2025-12-17 16:05:56,273 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-17 16:05:56,290 - enhanced_voice - INFO - ✅ Enhanced Voice Recognizer Initialized
+2025-12-17 16:05:56,290 - __main__ - INFO - 🚀 Production Butler Initialized
+2025-12-17 16:05:56,290 - __main__ - INFO - 🔄 Starting production voice loop...
+2025-12-17 16:05:56,290 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 16:14:24,844 - device.device_manager - INFO - Initializing hardware components
+2025-12-17 16:14:24,849 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-17 16:14:24,867 - enhanced_voice - INFO - ✅ Enhanced Voice Recognizer Initialized
+2025-12-17 16:14:24,867 - __main__ - INFO - 🚀 Production Butler Initialized
+2025-12-17 16:14:24,868 - __main__ - INFO - 🔄 Starting production voice loop...
+2025-12-17 16:14:24,868 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 16:19:38,070 - device.device_manager - INFO - Initializing hardware components
+2025-12-17 16:19:38,075 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-17 16:19:38,088 - enhanced_voice - INFO - ✅ Enhanced Voice Recognizer Initialized
+2025-12-17 16:19:38,088 - __main__ - INFO - 🚀 Production Butler Initialized
+2025-12-17 16:19:38,088 - __main__ - INFO - 🔄 Starting production voice loop...
+2025-12-17 16:19:38,088 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 16:19:58,089 - enhanced_voice - INFO - ⏰ No speech detected
+2025-12-17 16:19:58,589 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 16:20:01,777 - enhanced_voice - INFO - 🔍 Heard: 'anil diplom'
+2025-12-17 16:20:02,278 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 16:20:13,182 - enhanced_voice - INFO - 🔍 Heard: 'i need'
+2025-12-17 16:20:13,683 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 16:20:17,870 - enhanced_voice - INFO - 🔍 Heard: 'need a clean'
+2025-12-17 16:20:38,680 - device.device_manager - INFO - Initializing hardware components
+2025-12-17 16:20:38,684 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-17 16:20:38,703 - enhanced_voice - INFO - ✅ Enhanced Voice Recognizer Initialized
+2025-12-17 16:20:38,703 - __main__ - INFO - 🚀 Production Butler Initialized
+2025-12-17 16:20:38,703 - __main__ - INFO - 🔄 Starting production voice loop...
+2025-12-17 16:20:38,703 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 16:20:44,567 - enhanced_voice - INFO - 🔍 Heard: 'i need a cleaner'
+2025-12-17 16:20:45,068 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 16:20:49,504 - enhanced_voice - INFO - 🔍 Heard: '1 september'
+2025-12-17 16:20:50,004 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 16:21:10,005 - enhanced_voice - INFO - ⏰ No speech detected
+2025-12-17 16:21:10,506 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 16:21:11,529 - enhanced_voice - INFO - ⏰ No speech detected
+2025-12-17 16:21:12,030 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 16:21:13,066 - enhanced_voice - INFO - ⏰ No speech detected
+2025-12-17 16:21:13,568 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 16:21:13,569 - enhanced_voice - INFO - ⏰ No speech detected
+2025-12-17 16:21:14,070 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 16:21:18,966 - enhanced_voice - INFO - 🔍 Heard: 'under deputy cm'
+2025-12-17 16:34:06,183 - device.device_manager - INFO - Initializing hardware components
+2025-12-17 16:34:06,189 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-17 16:34:06,208 - enhanced_voice - INFO - ✅ Enhanced Voice Recognizer Initialized
+2025-12-17 16:34:06,208 - __main__ - INFO - 🚀 Production Butler Initialized
+2025-12-17 16:34:06,208 - __main__ - INFO - 🔄 Starting production voice loop...
+2025-12-17 16:34:06,208 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 16:34:10,565 - enhanced_voice - INFO - ⏰ No speech detected
+2025-12-17 16:34:11,067 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 16:34:15,726 - enhanced_voice - INFO - 🔍 Heard: 'i need your number'
+2025-12-17 16:34:16,227 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 16:34:20,570 - enhanced_voice - INFO - 🔍 Heard: 'i need plumber'
+2025-12-17 16:34:21,071 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 16:34:25,390 - enhanced_voice - INFO - 🔍 Heard: 'under cleaner'
+2025-12-17 16:34:25,891 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 16:34:28,818 - __main__ - INFO - ⏹️ Shutdown requested by user
+2025-12-17 16:47:21,380 - device.device_manager - INFO - Initializing hardware components
+2025-12-17 16:47:21,384 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-17 16:47:21,399 - enhanced_voice - INFO - ✅ Enhanced Voice Recognizer Initialized
+2025-12-17 16:47:21,399 - __main__ - INFO - 🚀 Production Butler Initialized
+2025-12-17 16:47:21,399 - __main__ - INFO - 🔄 Starting production voice loop...
+2025-12-17 16:47:21,399 - __main__ - ERROR - ❌ Error in voice loop: 'EnhancedVoiceRecognizer' object has no attribute 'detect_wake_word'
+2025-12-17 16:47:26,404 - __main__ - ERROR - ❌ Error in voice loop: 'EnhancedVoiceRecognizer' object has no attribute 'detect_wake_word'
+2025-12-17 17:01:00,077 - device.device_manager - INFO - Initializing hardware components
+2025-12-17 17:01:00,082 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-17 17:01:00,099 - enhanced_voice - INFO - ✅ Enhanced Voice Recognizer Initialized
+2025-12-17 17:01:00,100 - __main__ - INFO - 🚀 Production Butler Initialized
+2025-12-17 17:01:00,100 - __main__ - INFO - 🔄 Starting production voice loop...
+2025-12-17 17:01:00,100 - __main__ - ERROR - ❌ Error in voice loop: 'EnhancedVoiceRecognizer' object has no attribute 'detect_wake_word'
+2025-12-17 17:01:05,105 - __main__ - ERROR - ❌ Error in voice loop: 'EnhancedVoiceRecognizer' object has no attribute 'detect_wake_word'
+2025-12-17 17:01:10,108 - __main__ - ERROR - ❌ Error in voice loop: 'EnhancedVoiceRecognizer' object has no attribute 'detect_wake_word'
+2025-12-17 17:06:33,767 - device.device_manager - INFO - Initializing hardware components
+2025-12-17 17:06:33,771 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-17 17:06:33,789 - enhanced_voice - INFO - ✅ Enhanced Voice Recognizer Initialized
+2025-12-17 17:06:33,790 - __main__ - INFO - 🚀 Production Butler Initialized
+2025-12-17 17:06:33,790 - __main__ - INFO - 🔄 Starting production voice loop...
+2025-12-17 17:06:33,790 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 17:06:33,790 - enhanced_voice - INFO - 🎤 PRODUCTION Listening started...
+2025-12-17 17:06:34,468 - enhanced_voice - INFO - 📊 Current threshold: 7140.154408115159
+2025-12-17 17:06:34,482 - enhanced_voice - ERROR - ❌ PRODUCTION Error: 'AudioConfig' object has no attribute 'phrase_time_limit'
+2025-12-17 17:06:34,483 - enhanced_voice - ERROR - ❌ Wake word detection error: Error terminating PortAudio: PortAudio not initialized [PaErrorCode -10000]
+2025-12-17 17:06:34,984 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 17:06:34,984 - enhanced_voice - INFO - 🎤 PRODUCTION Listening started...
+2025-12-17 17:06:34,984 - enhanced_voice - ERROR - ❌ PRODUCTION Error: Error terminating PortAudio: PortAudio not initialized [PaErrorCode -10000]
+2025-12-17 17:06:34,985 - enhanced_voice - ERROR - ❌ Wake word detection error: Error terminating PortAudio: PortAudio not initialized [PaErrorCode -10000]
+2025-12-17 17:06:35,485 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 17:06:35,485 - enhanced_voice - INFO - 🎤 PRODUCTION Listening started...
+2025-12-17 17:06:35,486 - enhanced_voice - ERROR - ❌ PRODUCTION Error: Error terminating PortAudio: PortAudio not initialized [PaErrorCode -10000]
+2025-12-17 17:06:35,486 - enhanced_voice - ERROR - ❌ Wake word detection error: Error terminating PortAudio: PortAudio not initialized [PaErrorCode -10000]
+2025-12-17 17:06:35,986 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 17:06:35,986 - enhanced_voice - INFO - 🎤 PRODUCTION Listening started...
+2025-12-17 17:06:35,986 - enhanced_voice - ERROR - ❌ PRODUCTION Error: Error terminating PortAudio: PortAudio not initialized [PaErrorCode -10000]
+2025-12-17 17:06:35,987 - enhanced_voice - ERROR - ❌ Wake word detection error: Error terminating PortAudio: PortAudio not initialized [PaErrorCode -10000]
+2025-12-17 17:06:36,487 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 17:06:36,487 - enhanced_voice - INFO - 🎤 PRODUCTION Listening started...
+2025-12-17 17:06:36,487 - enhanced_voice - ERROR - ❌ PRODUCTION Error: Error terminating PortAudio: PortAudio not initialized [PaErrorCode -10000]
+2025-12-17 17:06:36,488 - enhanced_voice - ERROR - ❌ Wake word detection error: Error terminating PortAudio: PortAudio not initialized [PaErrorCode -10000]
+2025-12-17 17:06:36,988 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 17:06:36,989 - enhanced_voice - INFO - 🎤 PRODUCTION Listening started...
+2025-12-17 17:06:36,989 - enhanced_voice - ERROR - ❌ PRODUCTION Error: Error terminating PortAudio: PortAudio not initialized [PaErrorCode -10000]
+2025-12-17 17:06:36,989 - enhanced_voice - ERROR - ❌ Wake word detection error: Error terminating PortAudio: PortAudio not initialized [PaErrorCode -10000]
+2025-12-17 17:06:37,490 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 17:06:37,490 - enhanced_voice - INFO - 🎤 PRODUCTION Listening started...
+2025-12-17 17:06:37,490 - enhanced_voice - ERROR - ❌ PRODUCTION Error: Error terminating PortAudio: PortAudio not initialized [PaErrorCode -10000]
+2025-12-17 17:06:37,490 - enhanced_voice - ERROR - ❌ Wake word detection error: Error terminating PortAudio: PortAudio not initialized [PaErrorCode -10000]
+2025-12-17 17:06:37,991 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 17:06:37,991 - enhanced_voice - INFO - 🎤 PRODUCTION Listening started...
+2025-12-17 17:06:37,991 - enhanced_voice - ERROR - ❌ PRODUCTION Error: Error terminating PortAudio: PortAudio not initialized [PaErrorCode -10000]
+2025-12-17 17:06:37,992 - enhanced_voice - ERROR - ❌ Wake word detection error: Error terminating PortAudio: PortAudio not initialized [PaErrorCode -10000]
+2025-12-17 17:06:38,492 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 17:06:38,492 - enhanced_voice - INFO - 🎤 PRODUCTION Listening started...
+2025-12-17 17:06:38,492 - enhanced_voice - ERROR - ❌ PRODUCTION Error: Error terminating PortAudio: PortAudio not initialized [PaErrorCode -10000]
+2025-12-17 17:06:38,493 - enhanced_voice - ERROR - ❌ Wake word detection error: Error terminating PortAudio: PortAudio not initialized [PaErrorCode -10000]
+2025-12-17 17:06:38,993 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 17:06:38,994 - enhanced_voice - INFO - 🎤 PRODUCTION Listening started...
+2025-12-17 17:06:38,994 - enhanced_voice - ERROR - ❌ PRODUCTION Error: Error terminating PortAudio: PortAudio not initialized [PaErrorCode -10000]
+2025-12-17 17:06:38,994 - enhanced_voice - ERROR - ❌ Wake word detection error: Error terminating PortAudio: PortAudio not initialized [PaErrorCode -10000]
+2025-12-17 17:06:39,495 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 17:06:39,495 - enhanced_voice - INFO - 🎤 PRODUCTION Listening started...
+2025-12-17 17:06:39,495 - enhanced_voice - ERROR - ❌ PRODUCTION Error: Error terminating PortAudio: PortAudio not initialized [PaErrorCode -10000]
+2025-12-17 17:06:39,495 - enhanced_voice - ERROR - ❌ Wake word detection error: Error terminating PortAudio: PortAudio not initialized [PaErrorCode -10000]
+2025-12-17 17:06:39,996 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 17:06:39,996 - enhanced_voice - INFO - 🎤 PRODUCTION Listening started...
+2025-12-17 17:06:39,996 - enhanced_voice - ERROR - ❌ PRODUCTION Error: Error terminating PortAudio: PortAudio not initialized [PaErrorCode -10000]
+2025-12-17 17:06:39,996 - enhanced_voice - ERROR - ❌ Wake word detection error: Error terminating PortAudio: PortAudio not initialized [PaErrorCode -10000]
+2025-12-17 17:06:40,497 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 17:06:40,498 - enhanced_voice - INFO - 🎤 PRODUCTION Listening started...
+2025-12-17 17:06:40,498 - enhanced_voice - ERROR - ❌ PRODUCTION Error: Error terminating PortAudio: PortAudio not initialized [PaErrorCode -10000]
+2025-12-17 17:06:40,498 - enhanced_voice - ERROR - ❌ Wake word detection error: Error terminating PortAudio: PortAudio not initialized [PaErrorCode -10000]
+2025-12-17 17:06:40,999 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 17:06:40,999 - enhanced_voice - INFO - 🎤 PRODUCTION Listening started...
+2025-12-17 17:06:40,999 - enhanced_voice - ERROR - ❌ PRODUCTION Error: Error terminating PortAudio: PortAudio not initialized [PaErrorCode -10000]
+2025-12-17 17:06:40,999 - enhanced_voice - ERROR - ❌ Wake word detection error: Error terminating PortAudio: PortAudio not initialized [PaErrorCode -10000]
+2025-12-17 17:06:41,500 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 17:06:41,500 - enhanced_voice - INFO - 🎤 PRODUCTION Listening started...
+2025-12-17 17:06:41,500 - enhanced_voice - ERROR - ❌ PRODUCTION Error: Error terminating PortAudio: PortAudio not initialized [PaErrorCode -10000]
+2025-12-17 17:06:41,500 - enhanced_voice - ERROR - ❌ Wake word detection error: Error terminating PortAudio: PortAudio not initialized [PaErrorCode -10000]
+2025-12-17 18:36:04,775 - device.device_manager - INFO - Initializing hardware components
+2025-12-17 18:36:04,886 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-17 18:36:04,907 - enhanced_voice - INFO - ✅ SoundDevice configured: device=0, channels=1
+2025-12-17 18:36:04,907 - enhanced_voice - INFO - ✅ PRODUCTION Voice Recognizer Initialized
+2025-12-17 18:36:04,907 - __main__ - INFO - 🚀 Production Butler Initialized
+2025-12-17 18:36:04,907 - __main__ - INFO - 🔄 Starting PRODUCTION voice loop...
+2025-12-17 18:36:04,907 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 18:36:05,142 - enhanced_voice - ERROR - ❌ Simple listen error: 'NoneType' object has no attribute 'close'
+2025-12-17 18:36:05,142 - enhanced_voice - INFO - ⏰ No speech detected during wake word listening
+2025-12-17 18:36:06,143 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 18:36:06,369 - enhanced_voice - ERROR - ❌ Simple listen error: 'NoneType' object has no attribute 'close'
+2025-12-17 18:36:06,370 - enhanced_voice - INFO - ⏰ No speech detected during wake word listening
+2025-12-17 18:36:07,371 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 18:36:07,577 - enhanced_voice - ERROR - ❌ Simple listen error: 'NoneType' object has no attribute 'close'
+2025-12-17 18:36:07,579 - enhanced_voice - INFO - ⏰ No speech detected during wake word listening
+2025-12-17 18:36:08,579 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 18:36:08,786 - enhanced_voice - ERROR - ❌ Simple listen error: 'NoneType' object has no attribute 'close'
+2025-12-17 18:36:08,787 - enhanced_voice - INFO - ⏰ No speech detected during wake word listening
+2025-12-17 18:36:09,788 - enhanced_voice - INFO - 🔍 Listening for wake word...
+2025-12-17 18:36:10,005 - enhanced_voice - ERROR - ❌ Simple listen error: 'NoneType' object has no attribute 'close'
+2025-12-17 18:36:10,006 - enhanced_voice - INFO - ⏰ No speech detected during wake word listening
+2025-12-17 21:08:54,048 - device.device_manager - INFO - Initializing hardware components
+2025-12-17 21:08:54,060 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-17 21:08:54,134 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized
+2025-12-17 21:08:54,134 - __main__ - INFO - 🚀 Production Butler Initialized
+2025-12-17 21:08:54,134 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-17 21:09:22,216 - enhanced_voice - INFO - ✅ Wake word detected: hey butler
+2025-12-17 21:09:25,084 - __main__ - INFO - 🎯 Processing command: 'need plumber'
+2025-12-17 21:09:25,085 - __main__ - ERROR - ❌ Error: 'EnhancedVoiceRecognizer' object has no attribute 'detect_service_keyword'
+2025-12-17 21:09:31,952 - enhanced_voice - INFO - ✅ Wake word detected: hey butler
+2025-12-17 21:09:36,423 - __main__ - INFO - 🎯 Processing command: 'I need a cleaner'
+2025-12-17 21:09:36,423 - __main__ - ERROR - ❌ Error: 'EnhancedVoiceRecognizer' object has no attribute 'detect_service_keyword'
+2025-12-17 21:09:41,950 - enhanced_voice - INFO - ✅ Wake word detected: hey butler
+2025-12-17 21:09:50,602 - __main__ - INFO - 🎯 Processing command: 'I need a data scientist'
+2025-12-17 21:09:50,603 - __main__ - ERROR - ❌ Error: 'EnhancedVoiceRecognizer' object has no attribute 'detect_service_keyword'
+2025-12-17 21:09:57,574 - enhanced_voice - INFO - ✅ Wake word detected: hey butler
+2025-12-17 21:10:02,355 - __main__ - INFO - 🎯 Processing command: 'I need an electrician'
+2025-12-17 21:10:02,355 - __main__ - ERROR - ❌ Error: 'EnhancedVoiceRecognizer' object has no attribute 'detect_service_keyword'
+2025-12-17 21:38:34,055 - device.device_manager - INFO - Initializing hardware components
+2025-12-17 21:38:34,061 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-17 21:38:34,083 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized
+2025-12-17 21:38:34,083 - __main__ - INFO - 🚀 Production Butler Initialized
+2025-12-17 21:38:34,083 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-17 21:38:46,367 - enhanced_voice - INFO - ✅ Wake word detected: butler
+2025-12-17 21:38:51,249 - __main__ - INFO - 🎯 Processing command: 'I need an electrician'
+2025-12-17 21:38:51,250 - __main__ - ERROR - ❌ Error: 'EnhancedVoiceRecognizer' object has no attribute 'detect_service_keyword'
+2025-12-17 21:38:56,950 - enhanced_voice - INFO - ✅ Wake word detected: hey butler
+2025-12-17 21:39:00,497 - __main__ - INFO - 🎯 Processing command: 'I need a plumber'
+2025-12-17 21:39:00,497 - __main__ - ERROR - ❌ Error: 'EnhancedVoiceRecognizer' object has no attribute 'detect_service_keyword'
+2025-12-17 21:39:42,852 - enhanced_voice - INFO - ✅ Wake word detected: hey butler
+2025-12-17 21:39:58,575 - enhanced_voice - INFO - ✅ Wake word detected: hey butler
+2025-12-17 21:40:02,843 - __main__ - INFO - 🎯 Processing command: 'I need a data scientist'
+2025-12-17 21:40:02,844 - __main__ - ERROR - ❌ Error: 'EnhancedVoiceRecognizer' object has no attribute 'detect_service_keyword'
+2025-12-17 23:08:38,338 - device.device_manager - INFO - Initializing hardware components
+2025-12-17 23:08:38,343 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-17 23:08:38,367 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized
+2025-12-17 23:08:38,368 - __main__ - INFO - 🚀 Production Butler Initialized
+2025-12-17 23:08:38,368 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-17 23:08:45,690 - enhanced_voice - INFO - ✅ Wake word detected: hey butler
+2025-12-17 23:08:49,978 - __main__ - INFO - 🎯 Processing command: 'I need a plumber'
+2025-12-17 23:08:49,990 - __main__ - ERROR - ❌ Error: object tuple can't be used in 'await' expression
+2025-12-17 23:08:55,676 - enhanced_voice - INFO - ✅ Wake word detected: hey butler
+2025-12-17 23:09:01,403 - __main__ - INFO - 🎯 Processing command: 'I need a cleaner'
+2025-12-17 23:09:01,405 - __main__ - ERROR - ❌ Error: object tuple can't be used in 'await' expression
+2025-12-17 23:09:19,034 - enhanced_voice - INFO - ✅ Wake word detected: hey butler
+2025-12-17 23:09:27,002 - __main__ - INFO - 🎯 Processing command: 'I need an electrician'
+2025-12-17 23:09:27,004 - __main__ - ERROR - ❌ Error: object tuple can't be used in 'await' expression
+2025-12-17 23:17:54,794 - device.device_manager - INFO - Initializing hardware components
+2025-12-17 23:17:54,801 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-17 23:17:54,828 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized
+2025-12-17 23:17:54,828 - __main__ - INFO - 🚀 Production Butler Initialized
+2025-12-17 23:17:54,828 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-17 23:18:24,788 - enhanced_voice - INFO - ✅ Wake word detected: hey butler
+2025-12-17 23:18:30,533 - __main__ - INFO - 🎯 Processing command: 'I need an electric'
+2025-12-17 23:18:30,535 - __main__ - INFO - ✅ Service detected: electrician
+2025-12-17 23:18:42,563 - __main__ - ERROR - ❌ Error: 'NoneType' object has no attribute 'strip'
+2025-12-17 23:18:50,998 - enhanced_voice - INFO - ✅ Wake word detected: butler
+2025-12-17 23:18:55,079 - __main__ - INFO - 🎯 Processing command: 'I need an electrician'
+2025-12-17 23:18:55,080 - __main__ - INFO - ✅ Service detected: electrician
+2025-12-17 23:18:59,134 - __main__ - ERROR - ❌ Error: 'NoneType' object has no attribute 'strip'
+2025-12-17 23:19:06,992 - enhanced_voice - INFO - ✅ Wake word detected: hey butler
+2025-12-17 23:19:12,049 - __main__ - INFO - 🎯 Processing command: 'I want a cleaner'
+2025-12-17 23:19:12,050 - __main__ - INFO - ✅ Service detected: cleaner
+2025-12-17 23:19:15,900 - __main__ - ERROR - ❌ Error: 'NoneType' object has no attribute 'strip'
+2025-12-17 23:28:32,869 - device.device_manager - INFO - Initializing hardware components
+2025-12-17 23:28:32,874 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-17 23:28:32,894 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized
+2025-12-17 23:28:32,894 - __main__ - INFO - 🚀 Production Butler Initialized
+2025-12-17 23:28:32,894 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-17 23:28:49,016 - enhanced_voice - INFO - ✅ Wake word detected: hey butler
+2025-12-17 23:29:14,647 - enhanced_voice - INFO - ✅ Wake word detected: hey butler
+2025-12-17 23:29:24,028 - __main__ - INFO - 🎯 Processing command: 'I need a car'
+2025-12-17 23:29:24,029 - __main__ - WARNING - ⚠️ No service detected in: 'I need a car'
+2025-12-17 23:32:07,362 - device.device_manager - INFO - Initializing hardware components
+2025-12-17 23:32:07,368 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-17 23:32:07,389 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized
+2025-12-17 23:32:07,389 - __main__ - INFO - 🚀 Production Butler Initialized
+2025-12-17 23:32:07,389 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-17 23:32:21,272 - enhanced_voice - INFO - ✅ Wake word detected: butler
+2025-12-17 23:32:26,330 - __main__ - INFO - 🎯 Processing command: 'I need a plumber'
+2025-12-17 23:32:26,331 - __main__ - INFO - ✅ Service detected: plumber
+2025-12-17 23:32:32,440 - __main__ - ERROR - ❌ Error: 'NoneType' object has no attribute 'strip'
+2025-12-17 23:32:38,811 - enhanced_voice - INFO - ✅ Wake word detected: butler
+2025-12-17 23:33:46,418 - device.device_manager - INFO - Initializing hardware components
+2025-12-17 23:33:46,423 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-17 23:33:46,440 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized
+2025-12-17 23:33:46,440 - __main__ - INFO - 🚀 Production Butler Initialized
+2025-12-17 23:33:46,440 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-17 23:34:15,481 - enhanced_voice - INFO - ✅ Wake word detected: hey butler
+2025-12-17 23:34:20,043 - __main__ - INFO - 🎯 Processing command: 'I need a plumber'
+2025-12-17 23:34:20,044 - __main__ - INFO - ✅ Service detected: plumber
+2025-12-17 23:34:23,925 - __main__ - ERROR - ❌ Error: 'NoneType' object has no attribute 'strip'
+2025-12-17 23:34:29,512 - enhanced_voice - INFO - ✅ Wake word detected: hey butler
+2025-12-17 23:34:35,702 - __main__ - INFO - 🎯 Processing command: 'I need a cleaner'
+2025-12-17 23:34:35,702 - __main__ - INFO - ✅ Service detected: cleaner
+2025-12-17 23:34:39,350 - __main__ - ERROR - ❌ Error: 'NoneType' object has no attribute 'strip'
+2025-12-17 23:44:20,547 - device.device_manager - INFO - Initializing hardware components
+2025-12-17 23:44:20,552 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-17 23:44:20,574 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized
+2025-12-17 23:44:20,574 - __main__ - INFO - 🚀 Production Butler Initialized
+2025-12-17 23:44:20,574 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-17 23:44:43,275 - enhanced_voice - INFO - ✅ Wake word detected: hey butler
+2025-12-17 23:44:56,202 - __main__ - INFO - 🎯 Processing command: 'I need a plumber'
+2025-12-17 23:44:56,202 - __main__ - INFO - ✅ Service detected: plumber
+2025-12-17 23:44:56,203 - __main__ - INFO - 📅 Starting plumber booking flow...
+2025-12-17 23:44:58,203 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: plumber - BLR20251217234458
+2025-12-17 23:44:58,204 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: plumber booking confirmed. ID: BLR20251217...
+2025-12-17 23:44:58,204 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: plumber - BLR20251217234458
+2025-12-17 23:44:58,204 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New plumber booking: Guest User - +919876543210. A...
+2025-12-17 23:45:05,096 - enhanced_voice - INFO - ✅ Wake word detected: hey butler
+2025-12-17 23:45:20,854 - enhanced_voice - INFO - ✅ Wake word detected: hey butler
+2025-12-17 23:45:25,215 - __main__ - INFO - 🎯 Processing command: 'I need an electric'
+2025-12-17 23:45:25,216 - __main__ - INFO - ✅ Service detected: electrician
+2025-12-17 23:45:25,216 - __main__ - INFO - 📅 Starting electrician booking flow...
+2025-12-17 23:45:27,217 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: electrician - BLR20251217234527
+2025-12-17 23:45:27,217 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: electrician booking confirmed. ID: BLR2025...
+2025-12-17 23:45:27,217 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: electrician - BLR20251217234527
+2025-12-17 23:45:27,218 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New electrician booking: Guest User - +91987654321...
+2025-12-17 23:45:49,675 - enhanced_voice - INFO - ✅ Wake word detected: hey butler
+2025-12-17 23:54:47,782 - device.device_manager - INFO - Initializing hardware components
+2025-12-17 23:54:47,794 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-17 23:54:47,867 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized
+2025-12-17 23:54:47,868 - __main__ - INFO - 🚀 Production Butler Initialized
+2025-12-17 23:54:47,868 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-17 23:54:53,479 - enhanced_voice - INFO - ✅ Wake word detected: hey butler
+2025-12-17 23:54:58,377 - __main__ - INFO - 🎯 Processing command: 'I need a plumber'
+2025-12-17 23:54:58,378 - __main__ - INFO - ✅ Service detected: plumber
+2025-12-17 23:54:58,378 - __main__ - INFO - 📅 Starting plumber booking flow...
+2025-12-17 23:55:00,379 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: plumber - BLR20251217235500
+2025-12-17 23:55:00,379 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: plumber booking confirmed. ID: BLR20251217...
+2025-12-17 23:55:00,379 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: plumber - BLR20251217235500
+2025-12-17 23:55:00,379 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New plumber booking: Guest User - +919876543210. A...
+2025-12-17 23:55:06,005 - enhanced_voice - INFO - ✅ Wake word detected: butler
+2025-12-17 23:55:10,234 - __main__ - INFO - 🎯 Processing command: 'I need an electrician'
+2025-12-17 23:55:10,234 - __main__ - INFO - ✅ Service detected: electrician
+2025-12-17 23:55:10,235 - __main__ - INFO - 📅 Starting electrician booking flow...
+2025-12-17 23:55:12,235 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: electrician - BLR20251217235512
+2025-12-17 23:55:12,236 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: electrician booking confirmed. ID: BLR2025...
+2025-12-17 23:55:12,236 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: electrician - BLR20251217235512
+2025-12-17 23:55:12,236 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New electrician booking: Guest User - +91987654321...
+2025-12-17 23:55:15,995 - enhanced_voice - INFO - ✅ Wake word detected: hey butler
+2025-12-17 23:55:19,792 - __main__ - INFO - 🎯 Processing command: 'I need cleaner'
+2025-12-17 23:55:19,792 - __main__ - INFO - ✅ Service detected: cleaner
+2025-12-17 23:55:19,793 - __main__ - INFO - 📅 Starting cleaner booking flow...
+2025-12-17 23:55:21,793 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: cleaner - BLR20251217235521
+2025-12-17 23:55:21,793 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: cleaner booking confirmed. ID: BLR20251217...
+2025-12-17 23:55:21,794 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: cleaner - BLR20251217235521
+2025-12-17 23:55:21,794 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New cleaner booking: Guest User - +919876543210. A...
+2025-12-17 23:55:26,330 - enhanced_voice - INFO - ✅ Wake word detected: hey butler
+2025-12-17 23:55:30,175 - __main__ - INFO - 🎯 Processing command: 'find a doctor'
+2025-12-17 23:55:30,176 - __main__ - WARNING - ⚠️ No service detected in: 'find a doctor'
+2025-12-17 23:55:34,711 - enhanced_voice - INFO - ✅ Wake word detected: butler
+2025-12-17 23:55:39,907 - __main__ - INFO - 🎯 Processing command: 'I need an gardener'
+2025-12-17 23:55:39,908 - __main__ - WARNING - ⚠️ No service detected in: 'I need an gardener'
+2025-12-17 23:55:45,410 - enhanced_voice - INFO - ✅ Wake word detected: hey butler
+2025-12-17 23:55:49,716 - __main__ - INFO - 🎯 Processing command: 'I need a data scientist'
+2025-12-17 23:55:49,717 - __main__ - INFO - ✅ Service detected: data scientist
+2025-12-17 23:55:49,717 - __main__ - INFO - 📅 Starting data scientist booking flow...
+2025-12-17 23:55:51,717 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: data scientist - BLR20251217235551
+2025-12-17 23:55:51,718 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: data scientist booking confirmed. ID: BLR2...
+2025-12-17 23:55:51,718 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: data scientist - BLR20251217235551
+2025-12-17 23:55:51,718 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New data scientist booking: Guest User - +91987654...
+2025-12-17 23:55:54,970 - enhanced_voice - INFO - ✅ Wake word detected: butler
+2025-12-17 23:56:02,012 - __main__ - INFO - 🎯 Processing command: 'find a carpenter'
+2025-12-17 23:56:02,012 - __main__ - INFO - ✅ Service detected: carpenter
+2025-12-17 23:56:02,012 - __main__ - INFO - 📅 Starting carpenter booking flow...
+2025-12-17 23:56:04,013 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: carpenter - BLR20251217235604
+2025-12-17 23:56:04,013 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: carpenter booking confirmed. ID: BLR202512...
+2025-12-17 23:56:04,013 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: carpenter - BLR20251217235604
+2025-12-17 23:56:04,014 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New carpenter booking: Guest User - +919876543210....
+2025-12-17 23:56:10,703 - enhanced_voice - INFO - ✅ Wake word detected: butler
+2025-12-17 23:56:15,194 - __main__ - INFO - 🎯 Processing command: 'find a security guard'
+2025-12-17 23:56:15,194 - __main__ - WARNING - ⚠️ No service detected in: 'find a security guard'
+2025-12-17 23:56:22,070 - enhanced_voice - INFO - ✅ Wake word detected: hey butler
+2025-12-17 23:56:25,936 - __main__ - INFO - 🎯 Processing command: 'find the web developer'
+2025-12-17 23:56:25,937 - __main__ - WARNING - ⚠️ No service detected in: 'find the web developer'
+2025-12-17 23:56:31,334 - enhanced_voice - INFO - ✅ Wake word detected: hey butler
+2025-12-17 23:56:35,495 - __main__ - INFO - 🎯 Processing command: 'find the maid'
+2025-12-17 23:56:35,495 - __main__ - INFO - ✅ Service detected: cleaner
+2025-12-17 23:56:35,495 - __main__ - INFO - 📅 Starting cleaner booking flow...
+2025-12-17 23:56:37,496 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: cleaner - BLR20251217235637
+2025-12-17 23:56:37,496 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: cleaner booking confirmed. ID: BLR20251217...
+2025-12-17 23:56:37,497 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: cleaner - BLR20251217235637
+2025-12-17 23:56:37,497 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New cleaner booking: Guest User - +919876543210. A...
+2025-12-18 11:16:11,161 - device.device_manager - INFO - Initializing hardware components
+2025-12-18 11:16:11,172 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-18 11:16:11,246 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized
+2025-12-18 11:16:11,246 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-18 11:16:11,246 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-18 11:16:13,437 - enhanced_voice - ERROR - ❌ Listen error: 'NoneType' object has no attribute 'close'
+2025-12-18 11:16:14,607 - enhanced_voice - ERROR - ❌ Listen error: 'NoneType' object has no attribute 'close'
+2025-12-18 11:16:15,793 - enhanced_voice - ERROR - ❌ Listen error: 'NoneType' object has no attribute 'close'
+2025-12-18 11:16:16,958 - enhanced_voice - ERROR - ❌ Listen error: 'NoneType' object has no attribute 'close'
+2025-12-18 11:16:18,130 - enhanced_voice - ERROR - ❌ Listen error: 'NoneType' object has no attribute 'close'
+2025-12-18 11:17:41,540 - device.device_manager - INFO - Initializing hardware components
+2025-12-18 11:17:41,544 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-18 11:17:41,559 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized
+2025-12-18 11:17:41,559 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-18 11:17:41,559 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-18 11:17:43,760 - enhanced_voice - ERROR - ❌ Listen error: 'NoneType' object has no attribute 'close'
+2025-12-18 11:17:44,947 - enhanced_voice - ERROR - ❌ Listen error: 'NoneType' object has no attribute 'close'
+2025-12-18 12:45:03,792 - device.device_manager - INFO - Initializing hardware components
+2025-12-18 12:45:03,798 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-18 12:45:03,874 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-18 12:45:03,875 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-18 12:45:03,875 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-18 12:45:28,118 - __main__ - INFO - 🎯 Processing command: 'hey butler I need a plumber'
+2025-12-18 12:45:28,119 - __main__ - INFO - ✅ Service detected: plumber
+2025-12-18 12:45:28,120 - __main__ - INFO - 📅 Starting plumber booking flow...
+2025-12-18 12:45:30,120 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: plumber - BLR20251218124530
+2025-12-18 12:45:30,121 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: plumber booking confirmed. ID: BLR20251218...
+2025-12-18 12:45:30,121 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: plumber - BLR20251218124530
+2025-12-18 12:45:30,121 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New plumber booking: Guest User - +919876543210. A...
+2025-12-18 12:45:56,621 - __main__ - INFO - 🎯 Processing command: 'I need a plumber'
+2025-12-18 12:45:56,622 - __main__ - INFO - ✅ Service detected: plumber
+2025-12-18 12:45:56,622 - __main__ - INFO - 📅 Starting plumber booking flow...
+2025-12-18 12:45:58,623 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: plumber - BLR20251218124558
+2025-12-18 12:45:58,623 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: plumber booking confirmed. ID: BLR20251218...
+2025-12-18 12:45:58,623 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: plumber - BLR20251218124558
+2025-12-18 12:45:58,623 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New plumber booking: Guest User - +919876543210. A...
+2025-12-18 12:46:19,819 - __main__ - INFO - 🎯 Processing command: 'I need an electrician'
+2025-12-18 12:46:19,819 - __main__ - INFO - ✅ Service detected: electrician
+2025-12-18 12:46:19,819 - __main__ - INFO - 📅 Starting electrician booking flow...
+2025-12-18 12:46:21,820 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: electrician - BLR20251218124621
+2025-12-18 12:46:21,820 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: electrician booking confirmed. ID: BLR2025...
+2025-12-18 12:46:21,821 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: electrician - BLR20251218124621
+2025-12-18 12:46:21,821 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New electrician booking: Guest User - +91987654321...
+2025-12-18 12:46:42,795 - __main__ - INFO - 🎯 Processing command: 'I need a cleaner'
+2025-12-18 12:46:42,795 - __main__ - WARNING - ⚠️ No service detected in: 'I need a cleaner'
+2025-12-18 12:47:11,438 - __main__ - INFO - 🎯 Processing command: 'I need a web developer'
+2025-12-18 12:47:11,438 - __main__ - WARNING - ⚠️ No service detected in: 'I need a web developer'
+2025-12-18 12:47:32,154 - __main__ - INFO - 🎯 Processing command: 'I need a carpenter'
+2025-12-18 12:47:32,154 - __main__ - WARNING - ⚠️ No service detected in: 'I need a carpenter'
+2025-12-18 12:55:00,803 - device.device_manager - INFO - Initializing hardware components
+2025-12-18 12:55:00,808 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-18 12:55:00,827 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-18 12:55:00,828 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-18 12:55:00,828 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-18 12:55:28,094 - __main__ - INFO - 🎯 Processing command: 'I need a web developer'
+2025-12-18 12:55:28,095 - __main__ - INFO - ✅ Service detected: web developer
+2025-12-18 12:55:28,095 - __main__ - INFO - 📅 Starting web developer booking flow...
+2025-12-18 12:55:30,095 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: web developer - BLR20251218125530
+2025-12-18 12:55:30,096 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: web developer booking confirmed. ID: BLR20...
+2025-12-18 12:55:30,096 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: web developer - BLR20251218125530
+2025-12-18 12:55:30,096 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New web developer booking: Guest User - +919876543...
+2025-12-18 12:55:56,708 - __main__ - INFO - 🎯 Processing command: 'I need a barber'
+2025-12-18 12:55:56,709 - __main__ - WARNING - ⚠️ No service detected in: 'I need a barber'
+2025-12-18 12:56:18,012 - __main__ - INFO - 🎯 Processing command: 'I need a doctor'
+2025-12-18 12:56:18,013 - __main__ - WARNING - ⚠️ No service detected in: 'I need a doctor'
+2025-12-18 12:56:40,012 - __main__ - INFO - 🎯 Processing command: 'I need a carpenter'
+2025-12-18 12:56:40,013 - __main__ - INFO - ✅ Service detected: carpenter
+2025-12-18 12:56:40,013 - __main__ - INFO - 📅 Starting carpenter booking flow...
+2025-12-18 12:56:42,014 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: carpenter - BLR20251218125642
+2025-12-18 12:56:42,014 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: carpenter booking confirmed. ID: BLR202512...
+2025-12-18 12:56:42,014 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: carpenter - BLR20251218125642
+2025-12-18 12:56:42,015 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New carpenter booking: Guest User - +919876543210....
+2025-12-18 12:57:11,083 - __main__ - INFO - 🎯 Processing command: 'find a security guard near me'
+2025-12-18 12:57:11,083 - __main__ - WARNING - ⚠️ No service detected in: 'find a security guard near me'
+2025-12-18 13:20:22,457 - device.device_manager - INFO - Initializing hardware components
+2025-12-18 13:20:22,461 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-18 13:20:22,480 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-18 13:20:22,481 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-18 13:20:22,481 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-18 13:20:49,627 - __main__ - INFO - 🎯 Processing command: 'I need a carpenter'
+2025-12-18 13:20:49,629 - __main__ - INFO - ✅ Service detected: carpenter
+2025-12-18 13:20:49,629 - __main__ - INFO - 📅 Starting carpenter booking flow...
+2025-12-18 13:20:51,630 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: carpenter - BLR20251218132051
+2025-12-18 13:20:51,630 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: carpenter booking confirmed. ID: BLR202512...
+2025-12-18 13:20:51,631 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: carpenter - BLR20251218132051
+2025-12-18 13:20:51,631 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New carpenter booking: Guest User - +919876543210....
+2025-12-18 13:21:45,222 - __main__ - INFO - 🎯 Processing command: 'find a security guard near by me'
+2025-12-18 13:21:45,224 - __main__ - INFO - ✅ Service detected: security guard
+2025-12-18 13:21:45,225 - __main__ - INFO - 📅 Starting security guard booking flow...
+2025-12-18 13:21:47,226 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: security guard - BLR20251218132147
+2025-12-18 13:21:47,226 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: security guard booking confirmed. ID: BLR2...
+2025-12-18 13:21:47,226 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: security guard - BLR20251218132147
+2025-12-18 13:21:47,227 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New security guard booking: Guest User - +91987654...
+2025-12-18 13:22:12,458 - __main__ - INFO - 🎯 Processing command: 'find the barber near by me'
+2025-12-18 13:22:12,459 - __main__ - INFO - ✅ Service detected: barber
+2025-12-18 13:22:12,459 - __main__ - INFO - 📅 Starting barber booking flow...
+2025-12-18 13:22:14,460 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: barber - BLR20251218132214
+2025-12-18 13:22:14,460 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: barber booking confirmed. ID: BLR202512181...
+2025-12-18 13:22:14,461 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: barber - BLR20251218132214
+2025-12-18 13:22:14,461 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New barber booking: Guest User - +919876543210. Ad...
+2025-12-18 13:22:36,959 - __main__ - INFO - 🎯 Processing command: 'I want to repair my AC Kuldeep please find any AC repair expert'
+2025-12-18 13:22:36,960 - __main__ - INFO - ✅ Service detected: ac repair
+2025-12-18 13:22:36,961 - __main__ - INFO - 📅 Starting ac repair booking flow...
+2025-12-18 13:22:38,961 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: ac repair - BLR20251218132238
+2025-12-18 13:22:38,962 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: ac repair booking confirmed. ID: BLR202512...
+2025-12-18 13:22:38,962 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: ac repair - BLR20251218132238
+2025-12-18 13:22:38,962 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New ac repair booking: Guest User - +919876543210....
+2025-12-18 13:23:10,193 - __main__ - INFO - 🎯 Processing command: 'could you please find any grocery shop nearby me'
+2025-12-18 13:23:10,194 - __main__ - INFO - ✅ Service detected: groceries
+2025-12-18 13:23:10,194 - __main__ - INFO - 📅 Starting groceries booking flow...
+2025-12-18 13:23:12,195 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: groceries - BLR20251218132312
+2025-12-18 13:23:12,195 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: groceries booking confirmed. ID: BLR202512...
+2025-12-18 13:23:12,195 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: groceries - BLR20251218132312
+2025-12-18 13:23:12,195 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New groceries booking: Guest User - +919876543210....
+2025-12-18 13:23:36,816 - __main__ - INFO - 🎯 Processing command: 'is there any graphic designer please find if any'
+2025-12-18 13:23:36,817 - __main__ - INFO - ✅ Service detected: graphic designer
+2025-12-18 13:23:36,817 - __main__ - INFO - 📅 Starting graphic designer booking flow...
+2025-12-18 13:23:38,817 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: graphic designer - BLR20251218132338
+2025-12-18 13:23:38,818 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: graphic designer booking confirmed. ID: BL...
+2025-12-18 13:23:38,818 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: graphic designer - BLR20251218132338
+2025-12-18 13:23:38,818 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New graphic designer booking: Guest User - +919876...
+2025-12-18 13:24:28,917 - __main__ - INFO - 🎯 Processing command: 'find data analyst'
+2025-12-18 13:24:28,918 - __main__ - INFO - ✅ Service detected: data scientist
+2025-12-18 13:24:28,918 - __main__ - INFO - 📅 Starting data scientist booking flow...
+2025-12-18 13:24:30,919 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: data scientist - BLR20251218132430
+2025-12-18 13:24:30,919 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: data scientist booking confirmed. ID: BLR2...
+2025-12-18 13:24:30,919 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: data scientist - BLR20251218132430
+2025-12-18 13:24:30,919 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New data scientist booking: Guest User - +91987654...
+2025-12-18 13:24:51,991 - __main__ - INFO - 🎯 Processing command: 'find a driver'
+2025-12-18 13:24:51,992 - __main__ - INFO - ✅ Service detected: driver
+2025-12-18 13:24:51,992 - __main__ - INFO - 📅 Starting driver booking flow...
+2025-12-18 13:24:53,993 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: driver - BLR20251218132453
+2025-12-18 13:24:53,994 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: driver booking confirmed. ID: BLR202512181...
+2025-12-18 13:24:53,994 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: driver - BLR20251218132453
+2025-12-18 13:24:53,994 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New driver booking: Guest User - +919876543210. Ad...
+2025-12-18 13:25:17,912 - __main__ - INFO - 🎯 Processing command: 'I need a safe'
+2025-12-18 13:25:17,913 - __main__ - WARNING - ⚠️ No service detected in: 'I need a safe'
+2025-12-18 13:25:46,033 - __main__ - INFO - 🎯 Processing command: 'I need a safe'
+2025-12-18 13:25:46,034 - __main__ - WARNING - ⚠️ No service detected in: 'I need a safe'
+2025-12-18 13:26:10,381 - __main__ - INFO - 🎯 Processing command: 'I need chef'
+2025-12-18 13:26:10,382 - __main__ - INFO - ✅ Service detected: cook
+2025-12-18 13:26:10,382 - __main__ - INFO - 📅 Starting cook booking flow...
+2025-12-18 13:26:12,383 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: cook - BLR20251218132612
+2025-12-18 13:26:12,383 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: cook booking confirmed. ID: BLR20251218132...
+2025-12-18 13:26:12,383 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: cook - BLR20251218132612
+2025-12-18 13:26:12,384 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New cook booking: Guest User - +919876543210. Addr...
+2025-12-18 13:26:49,223 - __main__ - INFO - 🎯 Processing command: 'I need a sexual'
+2025-12-18 13:26:49,224 - __main__ - WARNING - ⚠️ No service detected in: 'I need a sexual'
+2025-12-18 15:08:02,216 - device.device_manager - INFO - Initializing hardware components
+2025-12-18 15:08:02,220 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-18 15:08:02,239 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-18 15:08:02,240 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-18 15:08:02,241 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-18 15:08:02,241 - enhanced_voice - INFO - 🌐 Supported languages: 9 languages
+2025-12-18 15:08:02,241 - enhanced_voice - INFO - 🗣️ Speech synthesizer ready
+2025-12-18 15:08:02,241 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-18 15:08:02,241 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-18 15:08:16,931 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-18 15:08:26,255 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-18 15:08:26,256 - __main__ - INFO - 🎯 Processing command: 'I need a security guard'
+2025-12-18 15:08:26,257 - __main__ - WARNING - ⚠️ No service detected in: 'I need a security guard'
+2025-12-18 15:08:38,241 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-18 15:08:47,490 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-18 15:08:47,490 - __main__ - INFO - 🎯 Processing command: 'I need a carpenter'
+2025-12-18 15:08:47,491 - __main__ - INFO - ✅ Service detected: carpenter
+2025-12-18 15:08:47,491 - __main__ - INFO - 📅 Starting carpenter booking flow...
+2025-12-18 15:08:49,491 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: carpenter - BLR20251218150849
+2025-12-18 15:08:49,492 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: carpenter booking confirmed. ID: BLR202512...
+2025-12-18 15:08:49,492 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: carpenter - BLR20251218150849
+2025-12-18 15:08:49,494 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New carpenter booking: Guest User - +919876543210....
+2025-12-18 15:09:01,192 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-18 15:09:13,617 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-18 15:09:26,128 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-18 15:09:35,440 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-18 15:09:35,441 - __main__ - INFO - 🎯 Processing command: 'I need electrician'
+2025-12-18 15:09:35,441 - __main__ - INFO - ✅ Service detected: electrician
+2025-12-18 15:09:35,441 - __main__ - INFO - 📅 Starting electrician booking flow...
+2025-12-18 15:09:37,442 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: electrician - BLR20251218150937
+2025-12-18 15:09:37,442 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: electrician booking confirmed. ID: BLR2025...
+2025-12-18 15:09:37,442 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: electrician - BLR20251218150937
+2025-12-18 15:09:37,442 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New electrician booking: Guest User - +91987654321...
+2025-12-18 15:09:49,055 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-18 15:10:10,211 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-18 15:10:22,917 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-18 15:39:59,354 - device.device_manager - INFO - Initializing hardware components
+2025-12-18 15:39:59,358 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-18 15:39:59,377 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-18 15:39:59,378 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-18 15:39:59,379 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-18 15:39:59,379 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-18 15:39:59,379 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-18 15:39:59,379 - enhanced_voice - INFO - 🗣️ Speech synthesizer ready
+2025-12-18 15:39:59,379 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-18 15:39:59,379 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-18 15:40:14,691 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-18 15:40:24,163 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-18 15:40:24,164 - __main__ - INFO - 🎯 Processing command: 'I need a carpenter'
+2025-12-18 15:40:24,166 - __main__ - INFO - ✅ Service detected: carpenter
+2025-12-18 15:40:24,166 - __main__ - INFO - 📅 Starting carpenter booking flow...
+2025-12-18 15:40:26,167 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: carpenter - BLR20251218154026
+2025-12-18 15:40:26,167 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: carpenter booking confirmed. ID: BLR202512...
+2025-12-18 15:40:26,167 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: carpenter - BLR20251218154026
+2025-12-18 15:40:26,167 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New carpenter booking: Guest User - +919876543210....
+2025-12-18 15:40:39,796 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-18 15:40:52,471 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-18 15:40:52,471 - __main__ - INFO - 🎯 Processing command: 'please find the barber'
+2025-12-18 15:40:52,472 - __main__ - INFO - ✅ Service detected: barber
+2025-12-18 15:40:52,472 - __main__ - INFO - 📅 Starting barber booking flow...
+2025-12-18 15:40:54,473 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: barber - BLR20251218154054
+2025-12-18 15:40:54,473 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: barber booking confirmed. ID: BLR202512181...
+2025-12-18 15:40:54,474 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: barber - BLR20251218154054
+2025-12-18 15:40:54,474 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New barber booking: Guest User - +919876543210. Ad...
+2025-12-18 16:00:36,975 - device.device_manager - INFO - Initializing hardware components
+2025-12-18 16:00:36,979 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-18 16:00:36,999 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-18 16:00:37,001 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-18 16:00:37,001 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-18 16:00:37,002 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-18 16:00:37,002 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-18 16:00:37,002 - enhanced_voice - INFO - 🗣️ Speech synthesizer ready
+2025-12-18 16:00:37,002 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-18 16:00:37,002 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-18 16:00:51,958 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-18 16:01:02,023 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-18 16:01:02,024 - __main__ - INFO - 🎯 Processing command: 'I need a plumber'
+2025-12-18 16:01:02,026 - __main__ - INFO - ✅ Service detected: plumber
+2025-12-18 16:01:02,026 - __main__ - INFO - 📅 Starting plumber booking flow...
+2025-12-18 16:01:04,027 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: plumber - BLR20251218160104
+2025-12-18 16:01:04,027 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: plumber booking confirmed. ID: BLR20251218...
+2025-12-18 16:01:04,027 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: plumber - BLR20251218160104
+2025-12-18 16:01:04,027 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New plumber booking: Guest User - +919876543210. A...
+2025-12-18 16:01:18,493 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-18 16:01:27,910 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-18 16:01:27,910 - __main__ - INFO - 🎯 Processing command: 'find the best web developer'
+2025-12-18 16:01:27,911 - __main__ - INFO - ✅ Service detected: web developer
+2025-12-18 16:01:27,911 - __main__ - INFO - 📅 Starting web developer booking flow...
+2025-12-18 16:01:29,912 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: web developer - BLR20251218160129
+2025-12-18 16:01:29,912 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: web developer booking confirmed. ID: BLR20...
+2025-12-18 16:01:29,912 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: web developer - BLR20251218160129
+2025-12-18 16:01:29,913 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New web developer booking: Guest User - +919876543...
+2025-12-18 16:04:47,547 - device.device_manager - INFO - Initializing hardware components
+2025-12-18 16:04:47,551 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-18 16:04:47,566 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-18 16:04:47,567 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-18 16:04:47,567 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-18 16:04:47,567 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-18 16:04:47,567 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-18 16:04:47,567 - enhanced_voice - INFO - 🗣️ Speech synthesizer ready
+2025-12-18 16:04:47,567 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-18 16:04:47,567 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-18 16:05:02,272 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-18 16:05:11,782 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-18 16:05:11,782 - __main__ - INFO - 🎯 Processing command: 'I need a plumber'
+2025-12-18 16:05:11,784 - __main__ - INFO - ✅ Service detected: plumber
+2025-12-18 16:05:11,784 - __main__ - INFO - 📅 Starting plumber booking flow...
+2025-12-18 16:05:13,785 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: plumber - BLR20251218160513
+2025-12-18 16:05:13,785 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: plumber booking confirmed. ID: BLR20251218...
+2025-12-18 16:05:13,786 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: plumber - BLR20251218160513
+2025-12-18 16:05:13,786 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New plumber booking: Guest User - +919876543210. A...
+2025-12-18 16:05:25,699 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-18 18:13:55,958 - device.device_manager - INFO - Initializing hardware components
+2025-12-18 18:13:55,972 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-18 18:13:56,049 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-18 18:13:56,050 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-18 18:13:56,050 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-18 18:13:56,051 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-18 18:13:56,051 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-18 18:13:56,051 - enhanced_voice - INFO - 🗣️ Speech synthesizer ready
+2025-12-18 18:13:56,051 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-18 18:13:56,051 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-18 18:13:59,057 - enhanced_voice - ERROR - Calibration failed: 'NoneType' object has no attribute 'close'
+2025-12-18 18:13:59,293 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-18 18:14:00,512 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-18 18:14:01,737 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-18 18:14:02,953 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-18 18:14:04,172 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-18 18:14:05,403 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-18 18:14:06,633 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-18 18:14:07,882 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-18 18:14:09,125 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-18 18:14:10,358 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-18 18:14:11,563 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-18 18:14:12,791 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-18 18:14:14,013 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-18 18:14:15,244 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-18 18:14:16,438 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-18 18:14:17,631 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-18 18:14:18,821 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-18 18:14:20,017 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-18 18:14:47,111 - device.device_manager - INFO - Initializing hardware components
+2025-12-18 18:14:47,116 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-18 18:14:47,132 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-18 18:14:47,132 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-18 18:14:47,132 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-18 18:14:47,133 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-18 18:14:47,133 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-18 18:14:47,133 - enhanced_voice - INFO - 🗣️ Speech synthesizer ready
+2025-12-18 18:14:47,133 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-18 18:14:47,133 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-18 18:16:50,166 - device.device_manager - INFO - Initializing hardware components
+2025-12-18 18:16:50,170 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-18 18:16:50,188 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-18 18:16:50,188 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-18 18:16:50,189 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-18 18:16:50,189 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-18 18:16:50,189 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-18 18:16:50,189 - enhanced_voice - INFO - 🗣️ Speech synthesizer ready
+2025-12-18 18:16:50,189 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-18 18:16:50,189 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-18 18:17:45,248 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-18 18:17:56,672 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-18 18:17:56,673 - __main__ - INFO - 🎯 Processing command: 'I want an electrician'
+2025-12-18 18:17:56,675 - __main__ - INFO - ✅ Service detected: electrician
+2025-12-18 18:17:56,675 - __main__ - INFO - 📅 Starting electrician booking flow...
+2025-12-18 18:17:58,675 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: electrician - BLR20251218181758
+2025-12-18 18:17:58,676 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: electrician booking confirmed. ID: BLR2025...
+2025-12-18 18:17:58,676 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: electrician - BLR20251218181758
+2025-12-18 18:17:58,676 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New electrician booking: Guest User - +91987654321...
+2025-12-18 18:24:50,941 - device.device_manager - INFO - Initializing hardware components
+2025-12-18 18:24:50,945 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-18 18:24:50,962 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-18 18:24:50,963 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-18 18:24:50,963 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-18 18:24:50,963 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-18 18:24:50,963 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-18 18:24:50,963 - enhanced_voice - INFO - 🗣️ Speech synthesizer ready
+2025-12-18 18:24:50,963 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-18 18:24:50,963 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-18 18:25:36,865 - enhanced_voice - INFO - 🌐 Language set to: Marathi
+2025-12-18 18:25:52,482 - enhanced_voice - INFO - 🌐 Language set to: Marathi
+2025-12-18 18:26:07,074 - enhanced_voice - INFO - 🌐 Language set to: Marathi
+2025-12-18 18:26:21,442 - enhanced_voice - INFO - 🌐 Language set to: Marathi
+2025-12-19 10:41:04,157 - device.device_manager - INFO - Initializing hardware components
+2025-12-19 10:41:04,170 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-19 10:41:04,247 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-19 10:41:04,248 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-19 10:41:04,249 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-19 10:41:04,249 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-19 10:41:04,249 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-19 10:41:04,249 - enhanced_voice - INFO - 🗣️ Speech synthesizer ready
+2025-12-19 10:41:04,249 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-19 10:41:04,249 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-19 10:41:21,684 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 10:41:31,582 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 10:41:31,583 - __main__ - INFO - 🎯 Processing command: 'I need a plumber'
+2025-12-19 10:41:31,586 - __main__ - INFO - ✅ Service detected: plumber
+2025-12-19 10:41:31,587 - __main__ - INFO - 📅 Starting plumber booking flow...
+2025-12-19 10:41:33,588 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: plumber - BLR20251219104133
+2025-12-19 10:41:33,588 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: plumber booking confirmed. ID: BLR20251219...
+2025-12-19 10:41:33,588 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: plumber - BLR20251219104133
+2025-12-19 10:41:33,589 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New plumber booking: Guest User - +919876543210. A...
+2025-12-19 10:57:41,933 - device.device_manager - INFO - Initializing hardware components
+2025-12-19 10:57:41,937 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-19 10:57:41,961 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-19 10:57:41,962 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-19 10:57:41,962 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-19 10:57:41,963 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-19 10:57:41,963 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-19 10:57:41,963 - enhanced_voice - INFO - 🗣️ Speech synthesizer ready
+2025-12-19 10:57:41,963 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-19 10:57:41,963 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-19 10:57:58,310 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 10:58:07,955 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 10:58:07,956 - __main__ - INFO - 🎯 Processing command: 'I want an electrician'
+2025-12-19 10:58:07,961 - __main__ - INFO - ✅ Service detected: electrician
+2025-12-19 10:58:07,961 - __main__ - INFO - 📅 Starting electrician booking flow...
+2025-12-19 10:58:09,962 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: electrician - BLR20251219105809
+2025-12-19 10:58:09,962 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: electrician booking confirmed. ID: BLR2025...
+2025-12-19 10:58:09,963 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: electrician - BLR20251219105809
+2025-12-19 10:58:09,963 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New electrician booking: Guest User - +91987654321...
+2025-12-19 10:58:21,576 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 10:58:32,528 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 10:58:32,528 - __main__ - INFO - 🎯 Processing command: 'hotstar'
+2025-12-19 10:58:32,531 - __main__ - WARNING - ⚠️ No service detected in: 'hotstar'
+2025-12-19 10:58:44,726 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 10:58:58,502 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 10:59:07,996 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 10:59:07,997 - __main__ - INFO - 🎯 Processing command: 'mujhe ek plumber chahie good morning sar'
+2025-12-19 10:59:07,998 - __main__ - INFO - ✅ Service detected: plumber
+2025-12-19 10:59:07,998 - __main__ - INFO - 📅 Starting plumber booking flow...
+2025-12-19 10:59:09,999 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: plumber - BLR20251219105909
+2025-12-19 10:59:09,999 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: plumber booking confirmed. ID: BLR20251219...
+2025-12-19 10:59:09,999 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: plumber - BLR20251219105909
+2025-12-19 10:59:09,999 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New plumber booking: Guest User - +919876543210. A...
+2025-12-19 10:59:21,738 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 10:59:35,873 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 10:59:35,874 - __main__ - INFO - 🎯 Processing command: 'find me a data scientist'
+2025-12-19 10:59:35,876 - __main__ - INFO - ✅ Service detected: data scientist
+2025-12-19 10:59:35,877 - __main__ - INFO - 📅 Starting data scientist booking flow...
+2025-12-19 10:59:37,877 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: data scientist - BLR20251219105937
+2025-12-19 10:59:37,878 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: data scientist booking confirmed. ID: BLR2...
+2025-12-19 10:59:37,878 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: data scientist - BLR20251219105937
+2025-12-19 10:59:37,878 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New data scientist booking: Guest User - +91987654...
+2025-12-19 11:35:34,303 - device.device_manager - INFO - Initializing hardware components
+2025-12-19 11:35:34,309 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-19 11:35:34,326 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-19 11:35:34,326 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-19 11:35:34,327 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-19 11:35:34,327 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-19 11:35:34,327 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-19 11:35:34,327 - enhanced_voice - INFO - 🗣️ Speech synthesizer ready
+2025-12-19 11:35:34,327 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-19 11:35:34,327 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-19 11:35:49,175 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 11:35:58,535 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 11:35:58,535 - __main__ - INFO - 🎯 Processing command: 'I need a plumber'
+2025-12-19 11:35:58,538 - __main__ - INFO - ✅ Service detected: plumber
+2025-12-19 11:35:58,538 - __main__ - INFO - 📅 Starting plumber booking flow...
+2025-12-19 11:36:04,056 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: plumber - BLR20251219113604
+2025-12-19 11:36:04,057 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: plumber booking confirmed. ID: BLR20251219...
+2025-12-19 11:36:04,057 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: plumber - BLR20251219113604
+2025-12-19 11:36:04,057 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New plumber booking: Guest User - +919876543210. A...
+2025-12-19 12:47:16,638 - device.device_manager - INFO - Initializing hardware components
+2025-12-19 12:47:16,642 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-19 12:47:16,660 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-19 12:47:16,661 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-19 12:47:16,662 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-19 12:47:16,662 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-19 12:47:16,662 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-19 12:47:16,662 - enhanced_voice - INFO - 🗣️ Speech synthesizer ready
+2025-12-19 12:47:16,662 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-19 12:47:16,662 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-19 12:47:31,810 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 12:47:41,294 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 12:47:41,294 - __main__ - INFO - 🎯 Processing command: 'I need a plumber'
+2025-12-19 12:47:41,297 - __main__ - INFO - ✅ Service detected: plumber
+2025-12-19 12:47:41,297 - __main__ - INFO - 📅 Starting plumber booking flow...
+2025-12-19 12:47:43,300 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: plumber - BLR20251219124743
+2025-12-19 12:47:43,302 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: plumber booking confirmed. ID: BLR20251219...
+2025-12-19 12:47:43,303 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: plumber - BLR20251219124743
+2025-12-19 12:47:43,304 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New plumber booking: Guest User - +919876543210. A...
+2025-12-19 15:51:53,204 - device.device_manager - INFO - Initializing hardware components
+2025-12-19 15:51:53,217 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-19 15:51:53,292 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-19 15:51:53,293 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-19 15:51:53,293 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-19 15:51:53,293 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-19 15:51:53,293 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-19 15:51:53,293 - enhanced_voice - INFO - 🗣️ Speech synthesizer ready
+2025-12-19 15:51:53,294 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-19 15:51:53,294 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-19 15:52:08,304 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 15:52:18,090 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 15:52:18,090 - __main__ - INFO - 🎯 Processing command: 'I want an electrician'
+2025-12-19 15:52:18,093 - __main__ - INFO - ✅ Service detected: electrician
+2025-12-19 15:52:18,094 - __main__ - INFO - 📅 Starting electrician booking flow...
+2025-12-19 15:52:20,097 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: electrician - BLR20251219155220
+2025-12-19 15:52:20,098 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: electrician booking confirmed. ID: BLR2025...
+2025-12-19 15:52:20,098 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: electrician - BLR20251219155220
+2025-12-19 15:52:20,099 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New electrician booking: Guest User - +91987654321...
+2025-12-19 15:52:32,115 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 15:52:52,710 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 15:53:05,352 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 15:53:14,601 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 15:53:14,601 - __main__ - INFO - 🎯 Processing command: 'I want a cleaner'
+2025-12-19 15:53:14,602 - __main__ - INFO - ✅ Service detected: cleaner
+2025-12-19 15:53:14,603 - __main__ - INFO - 📅 Starting cleaner booking flow...
+2025-12-19 15:53:16,605 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: cleaner - BLR20251219155316
+2025-12-19 15:53:16,605 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: cleaner booking confirmed. ID: BLR20251219...
+2025-12-19 15:53:16,606 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: cleaner - BLR20251219155316
+2025-12-19 15:53:16,606 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New cleaner booking: Guest User - +919876543210. A...
+2025-12-19 15:53:29,916 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 15:53:39,217 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 15:53:39,217 - __main__ - INFO - 🎯 Processing command: 'I want a data scientist'
+2025-12-19 15:53:39,218 - __main__ - INFO - ✅ Service detected: data scientist
+2025-12-19 15:53:39,219 - __main__ - INFO - 📅 Starting data scientist booking flow...
+2025-12-19 15:53:41,223 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: data scientist - BLR20251219155341
+2025-12-19 15:53:41,223 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: data scientist booking confirmed. ID: BLR2...
+2025-12-19 15:53:41,224 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: data scientist - BLR20251219155341
+2025-12-19 15:53:41,224 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New data scientist booking: Guest User - +91987654...
+2025-12-19 15:57:58,030 - device.device_manager - INFO - Initializing hardware components
+2025-12-19 15:57:58,034 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-19 15:57:58,050 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-19 15:57:58,051 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-19 15:57:58,051 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-19 15:57:58,051 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-19 15:57:58,051 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-19 15:57:58,051 - enhanced_voice - INFO - 🗣️ Speech synthesizer ready
+2025-12-19 15:57:58,051 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-19 15:57:58,051 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-19 15:58:01,056 - enhanced_voice - ERROR - Calibration failed: 'NoneType' object has no attribute 'close'
+2025-12-19 15:58:01,292 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-19 15:58:02,522 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-19 15:58:03,755 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-19 15:58:04,989 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-19 15:58:06,230 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-19 15:58:07,484 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-19 15:58:08,744 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-19 15:58:10,002 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-19 16:16:23,768 - device.device_manager - INFO - Initializing hardware components
+2025-12-19 16:16:23,772 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-19 16:16:23,793 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-19 16:16:23,793 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-19 16:16:23,794 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-19 16:16:23,794 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-19 16:16:23,794 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-19 16:16:23,794 - enhanced_voice - INFO - 🗣️ Speech synthesizer ready
+2025-12-19 16:16:23,794 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-19 16:16:23,794 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-19 16:16:38,428 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 16:16:47,830 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 16:16:47,830 - __main__ - INFO - 🎯 Processing command: 'I need a plumber'
+2025-12-19 16:16:47,833 - __main__ - INFO - ✅ Service detected: plumber
+2025-12-19 16:16:47,834 - __main__ - INFO - 📅 Starting plumber booking flow...
+2025-12-19 16:16:49,837 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: plumber - BLR20251219161649
+2025-12-19 16:16:49,837 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: plumber booking confirmed. ID: BLR20251219...
+2025-12-19 16:16:49,838 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: plumber - BLR20251219161649
+2025-12-19 16:16:49,838 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New plumber booking: Guest User - +919876543210. A...
+2025-12-19 16:17:01,471 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 16:17:16,257 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 16:17:16,258 - __main__ - INFO - 🎯 Processing command: 'I need an electrician'
+2025-12-19 16:17:16,259 - __main__ - INFO - ✅ Service detected: electrician
+2025-12-19 16:17:16,259 - __main__ - INFO - 📅 Starting electrician booking flow...
+2025-12-19 16:17:18,262 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: electrician - BLR20251219161718
+2025-12-19 16:17:18,263 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: electrician booking confirmed. ID: BLR2025...
+2025-12-19 16:17:18,264 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: electrician - BLR20251219161718
+2025-12-19 16:17:18,264 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New electrician booking: Guest User - +91987654321...
+2025-12-19 16:18:02,135 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 16:18:12,044 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 16:18:12,044 - __main__ - INFO - 🎯 Processing command: 'mujhe ek electrician ki need hai'
+2025-12-19 16:18:12,045 - __main__ - INFO - ✅ Service detected: electrician
+2025-12-19 16:18:12,046 - __main__ - INFO - 📅 Starting electrician booking flow...
+2025-12-19 16:18:14,048 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: electrician - BLR20251219161814
+2025-12-19 16:18:14,049 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: electrician booking confirmed. ID: BLR2025...
+2025-12-19 16:18:14,049 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: electrician - BLR20251219161814
+2025-12-19 16:18:14,049 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New electrician booking: Guest User - +91987654321...
+2025-12-19 16:18:58,781 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 16:19:08,132 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 16:19:08,133 - __main__ - INFO - 🎯 Processing command: 'mujhe ek plumber chahie'
+2025-12-19 16:19:08,134 - __main__ - INFO - ✅ Service detected: plumber
+2025-12-19 16:19:08,134 - __main__ - INFO - 📅 Starting plumber booking flow...
+2025-12-19 16:19:10,137 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: plumber - BLR20251219161910
+2025-12-19 16:19:10,138 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: plumber booking confirmed. ID: BLR20251219...
+2025-12-19 16:19:10,138 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: plumber - BLR20251219161910
+2025-12-19 16:19:10,139 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New plumber booking: Guest User - +919876543210. A...
+2025-12-19 16:19:22,038 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 16:19:33,309 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 16:19:33,310 - __main__ - INFO - 🎯 Processing command: 'yes I am listening tell me I miss you order'
+2025-12-19 16:19:33,311 - __main__ - WARNING - ⚠️ No service detected in: 'yes I am listening tell me I miss you order'
+2025-12-19 16:19:52,899 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 16:20:02,616 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 16:20:02,617 - __main__ - INFO - 🎯 Processing command: 'Mala plumber paije'
+2025-12-19 16:20:02,617 - __main__ - INFO - ✅ Service detected: plumber
+2025-12-19 16:20:02,618 - __main__ - INFO - 📅 Starting plumber booking flow...
+2025-12-19 16:20:04,621 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: plumber - BLR20251219162004
+2025-12-19 16:20:04,621 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: plumber booking confirmed. ID: BLR20251219...
+2025-12-19 16:20:04,622 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: plumber - BLR20251219162004
+2025-12-19 16:20:04,622 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New plumber booking: Guest User - +919876543210. A...
+2025-12-19 16:32:52,604 - device.device_manager - INFO - Initializing hardware components
+2025-12-19 16:32:52,608 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-19 16:32:52,626 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-19 16:32:52,627 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-19 16:32:52,628 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-19 16:32:52,628 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-19 16:32:52,628 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-19 16:32:52,628 - enhanced_voice - INFO - 🗣️ Speech synthesizer ready
+2025-12-19 16:32:52,629 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-19 16:32:52,629 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-19 16:33:07,710 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 16:33:27,733 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 16:33:27,735 - __main__ - INFO - 🎯 Processing command: 'yes I am listening tell me I suggest you I need an electrician'
+2025-12-19 16:33:27,738 - __main__ - INFO - ✅ Service detected: electrician
+2025-12-19 16:33:27,738 - __main__ - INFO - 📅 Starting electrician booking flow...
+2025-12-19 16:33:29,741 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: electrician - BLR20251219163329
+2025-12-19 16:33:29,743 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: electrician booking confirmed. ID: BLR2025...
+2025-12-19 16:33:29,744 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: electrician - BLR20251219163329
+2025-12-19 16:33:29,744 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New electrician booking: Guest User - +91987654321...
+2025-12-19 16:33:41,200 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 16:33:53,894 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 16:34:03,773 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 16:34:03,774 - __main__ - INFO - 🎯 Processing command: 'Malai electrician price'
+2025-12-19 16:34:03,775 - __main__ - INFO - ✅ Service detected: electrician
+2025-12-19 16:34:03,775 - __main__ - INFO - 📅 Starting electrician booking flow...
+2025-12-19 16:34:05,778 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: electrician - BLR20251219163405
+2025-12-19 16:34:05,778 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: electrician booking confirmed. ID: BLR2025...
+2025-12-19 16:34:05,779 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: electrician - BLR20251219163405
+2025-12-19 16:34:05,780 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New electrician booking: Guest User - +91987654321...
+2025-12-19 16:34:20,424 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 16:34:33,497 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 16:34:55,306 - enhanced_voice - INFO - 🌐 Language set to: Telugu
+2025-12-19 17:37:59,112 - device.device_manager - INFO - Initializing hardware components
+2025-12-19 17:37:59,116 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-19 17:37:59,134 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-19 17:37:59,135 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-19 17:37:59,135 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-19 17:37:59,136 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-19 17:37:59,136 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-19 17:37:59,136 - enhanced_voice - INFO - 🗣️ Speech synthesizer ready
+2025-12-19 17:37:59,136 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-19 17:37:59,136 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-19 17:38:15,322 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 17:38:24,992 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 17:38:24,994 - __main__ - INFO - 🎯 Processing command: 'I need sex'
+2025-12-19 17:38:24,997 - __main__ - WARNING - ⚠️ No service detected in: 'I need sex'
+2025-12-19 17:39:11,170 - device.device_manager - INFO - Initializing hardware components
+2025-12-19 17:39:11,174 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-19 17:39:11,192 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-19 17:39:11,192 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-19 17:39:11,193 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-19 17:39:11,193 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-19 17:39:11,193 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-19 17:39:11,193 - enhanced_voice - INFO - 🗣️ Speech synthesizer ready
+2025-12-19 17:39:11,193 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-19 17:39:11,193 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-19 17:39:25,970 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 17:39:35,354 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 17:39:35,356 - __main__ - INFO - 🎯 Processing command: 'I need chef'
+2025-12-19 17:39:35,358 - __main__ - INFO - ✅ Service detected: cook
+2025-12-19 17:39:35,359 - __main__ - INFO - 📅 Starting cook booking flow...
+2025-12-19 17:39:37,362 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: cook - BLR20251219173937
+2025-12-19 17:39:37,364 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: cook booking confirmed. ID: BLR20251219173...
+2025-12-19 17:39:37,365 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: cook - BLR20251219173937
+2025-12-19 17:39:37,367 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New cook booking: Guest User - +919876543210. Addr...
+2025-12-19 18:19:36,833 - device.device_manager - INFO - Initializing hardware components
+2025-12-19 18:19:36,837 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-19 18:19:36,858 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-19 18:19:36,859 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-19 18:19:36,860 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-19 18:19:36,860 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-19 18:19:36,860 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-19 18:19:36,860 - enhanced_voice - INFO - 🗣️ Speech synthesizer ready
+2025-12-19 18:19:36,860 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-19 18:19:36,860 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-19 18:19:53,724 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 18:20:11,724 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 18:20:13,727 - __main__ - INFO - 🎯 Processing command: 'I need a plumber'
+2025-12-19 18:20:13,729 - __main__ - INFO - ✅ Service detected: plumber
+2025-12-19 18:20:13,729 - __main__ - INFO - 📅 Starting plumber booking flow...
+2025-12-19 18:20:15,732 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: plumber - BLR20251219182015
+2025-12-19 18:20:15,732 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: plumber booking confirmed. ID: BLR20251219...
+2025-12-19 18:20:15,733 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: plumber - BLR20251219182015
+2025-12-19 18:20:15,733 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New plumber booking: Guest User - +919876543210. A...
+2025-12-19 18:20:28,744 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 18:20:38,135 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-19 18:20:40,138 - __main__ - INFO - 🎯 Processing command: 'I need an electrician'
+2025-12-19 18:20:40,139 - __main__ - INFO - ✅ Service detected: electrician
+2025-12-19 18:20:40,140 - __main__ - INFO - 📅 Starting electrician booking flow...
+2025-12-19 18:20:42,142 - notifications - INFO - 📧 [TEST MODE] Would send email to user@example.com: ✅ Booking Confirmed: electrician - BLR20251219182042
+2025-12-19 18:20:42,142 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543210: Butler: electrician booking confirmed. ID: BLR2025...
+2025-12-19 18:20:42,143 - notifications - INFO - 📧 [TEST MODE] Would send email to vendor@serviceprovider.com: New Booking: electrician - BLR20251219182042
+2025-12-19 18:20:42,143 - notifications - INFO - 📱 [TEST MODE] Would send SMS to +919876543211: New electrician booking: Guest User - +91987654321...
+2025-12-22 11:39:32,369 - device.device_manager - INFO - Initializing hardware components
+2025-12-22 11:39:32,379 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-22 11:39:32,443 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-22 11:39:32,444 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-22 11:39:32,445 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-22 11:39:32,445 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-22 11:39:32,445 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-22 11:39:32,445 - enhanced_voice - INFO - 🗣️ Speech synthesizer ready
+2025-12-22 11:39:32,445 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-22 11:39:32,445 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-22 11:40:14,505 - enhanced_voice - INFO - 🌐 Language set to: Kannada
+2025-12-22 11:40:35,987 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-22 11:41:29,510 - enhanced_voice - INFO - 🌐 Language set to: Marathi
+2025-12-22 11:41:46,607 - enhanced_voice - INFO - 🌐 Language set to: Marathi
+2025-12-22 11:43:08,627 - device.device_manager - INFO - Initializing hardware components
+2025-12-22 11:43:08,632 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-22 11:43:08,648 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-22 11:43:08,649 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-22 11:43:08,649 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-22 11:43:08,649 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-22 11:43:08,649 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-22 11:43:08,650 - enhanced_voice - INFO - 🗣️ Speech synthesizer ready
+2025-12-22 11:43:08,650 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-22 11:43:08,650 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-22 11:43:29,573 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-22 11:43:48,855 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-22 11:45:03,467 - enhanced_voice - INFO - 🌐 Language set to: Marathi
+2025-12-22 11:45:35,370 - enhanced_voice - ERROR - Listen error: [Errno -9999] Unanticipated host error
+2025-12-22 11:46:00,124 - device.device_manager - INFO - Initializing hardware components
+2025-12-22 11:46:00,128 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-22 11:46:00,145 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-22 11:46:00,146 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-22 11:46:00,146 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-22 11:46:00,146 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-22 11:46:00,146 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-22 11:46:00,146 - enhanced_voice - INFO - 🗣️ Speech synthesizer ready
+2025-12-22 11:46:00,147 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-22 11:46:00,147 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-22 11:46:18,921 - enhanced_voice - INFO - 🌐 Language set to: English
+2025-12-22 12:51:21,529 - device.device_manager - INFO - Initializing hardware components
+2025-12-22 12:51:21,533 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-22 12:51:21,549 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-22 12:51:21,549 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-22 12:51:21,550 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-22 12:51:21,550 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-22 12:51:21,550 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-22 12:51:21,550 - enhanced_voice - INFO - 🗣️ Speech synthesizer ready
+2025-12-22 12:51:21,550 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-22 12:51:21,550 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-22 12:51:24,555 - enhanced_voice - ERROR - Calibration failed: 'NoneType' object has no attribute 'close'
+2025-12-22 12:51:24,714 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:51:25,876 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:51:27,039 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:51:28,203 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:51:29,366 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:51:30,531 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:51:31,694 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:51:32,860 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:51:34,026 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:51:35,200 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:51:36,372 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:51:54,513 - device.device_manager - INFO - Initializing hardware components
+2025-12-22 12:51:54,517 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-22 12:51:54,531 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-22 12:51:54,531 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-22 12:51:54,532 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-22 12:51:54,532 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-22 12:51:54,532 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-22 12:51:54,532 - enhanced_voice - INFO - 🗣️ Speech synthesizer ready
+2025-12-22 12:51:54,532 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-22 12:51:54,532 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-22 12:51:57,537 - enhanced_voice - ERROR - Calibration failed: 'NoneType' object has no attribute 'close'
+2025-12-22 12:51:57,699 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:51:58,857 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:52:00,013 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:52:01,175 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:52:02,337 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:52:03,500 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:52:04,668 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:52:05,832 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:55:14,806 - device.device_manager - INFO - Initializing hardware components
+2025-12-22 12:55:14,817 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-22 12:55:14,885 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-22 12:55:14,886 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-22 12:55:14,886 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-22 12:55:14,886 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-22 12:55:14,886 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-22 12:55:14,887 - enhanced_voice - INFO - 🗣️ Speech synthesizer ready
+2025-12-22 12:55:14,887 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-22 12:55:14,887 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-22 12:55:17,892 - enhanced_voice - ERROR - Calibration failed: 'NoneType' object has no attribute 'close'
+2025-12-22 12:55:18,099 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:55:19,320 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:55:20,556 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:55:21,762 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:55:22,965 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:55:24,174 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:55:25,381 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:55:26,581 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:55:27,779 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:55:28,982 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:55:30,194 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:55:31,397 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:55:32,611 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:55:33,814 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:55:35,016 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:55:36,216 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:55:37,417 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:56:07,026 - device.device_manager - INFO - Initializing hardware components
+2025-12-22 12:56:07,030 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-22 12:56:07,052 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-22 12:56:07,053 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-22 12:56:07,054 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-22 12:56:07,054 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-22 12:56:07,054 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-22 12:56:07,054 - enhanced_voice - INFO - 🗣️ Speech synthesizer ready
+2025-12-22 12:56:07,055 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-22 12:56:07,055 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-22 12:56:10,060 - enhanced_voice - ERROR - Calibration failed: 'NoneType' object has no attribute 'close'
+2025-12-22 12:56:10,277 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:56:11,491 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:56:12,709 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:56:13,922 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:56:15,147 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:56:16,371 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 12:56:17,589 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 13:06:13,887 - device.device_manager - INFO - Initializing hardware components
+2025-12-22 13:06:13,892 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-22 13:06:13,915 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-22 13:06:13,915 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-22 13:06:13,916 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-22 13:06:13,916 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-22 13:06:13,917 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-22 13:06:13,917 - enhanced_voice - INFO - 🗣️ Speech synthesizer ready
+2025-12-22 13:06:13,917 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-22 13:06:13,917 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-22 13:06:16,923 - enhanced_voice - ERROR - Calibration failed: 'NoneType' object has no attribute 'close'
+2025-12-22 13:06:17,131 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 13:06:18,349 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 13:06:19,564 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 13:42:35,543 - device.device_manager - INFO - Initializing hardware components
+2025-12-22 13:42:35,547 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-22 13:42:35,565 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-22 13:42:35,565 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-22 13:42:35,565 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-22 13:42:35,565 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-22 13:42:35,566 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-22 13:42:35,566 - enhanced_voice - INFO - 🗣️ Speech synthesizer ready
+2025-12-22 13:42:35,566 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-22 13:42:35,566 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-22 13:42:38,570 - enhanced_voice - ERROR - Calibration failed: 'NoneType' object has no attribute 'close'
+2025-12-22 13:42:38,781 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 13:42:39,996 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 13:44:04,722 - device.device_manager - INFO - Initializing hardware components
+2025-12-22 13:44:04,726 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-22 13:44:04,743 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-22 13:44:04,744 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-22 13:44:04,744 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-22 13:44:04,744 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-22 13:44:04,744 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-22 13:44:04,744 - enhanced_voice - INFO - 🗣️ Speech synthesizer ready
+2025-12-22 13:44:04,744 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-22 13:44:04,744 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-22 13:44:07,748 - enhanced_voice - ERROR - Calibration failed: 'NoneType' object has no attribute 'close'
+2025-12-22 13:44:07,946 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 13:44:09,146 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 13:44:10,347 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 13:44:11,560 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 13:44:12,765 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 13:44:13,970 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 13:44:15,178 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 13:44:16,374 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 13:44:17,570 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 13:44:18,774 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 13:44:19,975 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 14:58:49,525 - device.device_manager - INFO - Initializing hardware components
+2025-12-22 14:58:49,530 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-22 14:58:49,549 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-22 14:58:49,549 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-22 14:58:49,549 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-22 14:58:49,549 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-22 14:58:49,549 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-22 14:58:49,550 - enhanced_voice - INFO - 🗣️ Speech synthesizer ready
+2025-12-22 14:58:49,550 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-22 14:58:49,550 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-22 14:58:52,554 - enhanced_voice - ERROR - Calibration failed: 'NoneType' object has no attribute 'close'
+2025-12-22 14:58:52,766 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 14:58:53,992 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-22 14:58:55,209 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-23 10:49:12,834 - device.device_manager - INFO - Initializing hardware components
+2025-12-23 10:49:12,845 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-23 10:49:12,915 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-23 10:49:12,916 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-23 10:49:12,917 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-23 10:49:12,917 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-23 10:49:12,917 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-23 10:49:12,917 - enhanced_voice - INFO - 🗣️ Speech synthesizer ready
+2025-12-23 10:49:12,918 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-23 10:49:12,918 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-23 10:49:15,923 - enhanced_voice - ERROR - Calibration failed: 'NoneType' object has no attribute 'close'
+2025-12-23 10:49:16,151 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-23 10:49:17,383 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-23 10:49:18,615 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-23 10:49:34,114 - device.device_manager - INFO - Initializing hardware components
+2025-12-23 10:49:34,119 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-23 10:49:34,138 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-23 10:49:34,138 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-23 10:49:34,139 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-23 10:49:34,139 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-23 10:49:34,139 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-23 10:49:34,139 - enhanced_voice - INFO - 🗣️ Speech synthesizer ready
+2025-12-23 10:49:34,139 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-23 10:49:34,139 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-23 10:49:37,145 - enhanced_voice - ERROR - Calibration failed: 'NoneType' object has no attribute 'close'
+2025-12-23 10:49:37,369 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-23 10:49:38,598 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-23 10:49:39,815 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-23 10:58:51,830 - device.device_manager - INFO - Initializing hardware components
+2025-12-23 10:58:51,834 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-23 10:58:51,853 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-23 10:58:51,853 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-23 10:58:51,853 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-23 10:58:51,853 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-23 10:58:51,853 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-23 10:58:51,854 - enhanced_voice - INFO - 🗣️ Speech synthesizer ready
+2025-12-23 10:58:51,854 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-23 10:58:51,854 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-23 10:58:54,858 - enhanced_voice - ERROR - Calibration failed: 'NoneType' object has no attribute 'close'
+2025-12-23 10:58:55,100 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-23 10:58:56,321 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-23 10:58:57,538 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-23 11:12:59,552 - device.device_manager - INFO - Initializing hardware components
+2025-12-23 11:12:59,557 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-23 11:12:59,574 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-23 11:12:59,574 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-23 11:12:59,574 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-23 11:12:59,575 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-23 11:12:59,575 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-23 11:12:59,575 - enhanced_voice - INFO - 🗣️ Speech synthesizer ready
+2025-12-23 11:12:59,575 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-23 11:12:59,575 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-23 11:13:02,579 - enhanced_voice - ERROR - Calibration failed: 'NoneType' object has no attribute 'close'
+2025-12-23 11:13:02,808 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-23 11:13:04,027 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-23 11:13:05,263 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-23 11:13:06,479 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-23 11:13:07,711 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-23 11:13:08,958 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-23 11:13:10,191 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-23 11:13:11,430 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-23 11:13:12,714 - enhanced_voice - ERROR - Listen error: 'NoneType' object has no attribute 'close'
+2025-12-23 17:45:07,091 - device.device_manager - INFO - Initializing hardware components
+2025-12-23 17:45:07,096 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-23 17:45:07,115 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-23 17:45:07,115 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-23 17:45:07,116 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-23 17:45:07,116 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-23 17:45:07,116 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-23 17:45:07,116 - enhanced_voice - INFO - 🎤 Speech synthesizer ready
+2025-12-23 17:45:07,116 - enhanced_voice - INFO - 🔊 Using ALSA direct access: True
+2025-12-23 17:45:07,116 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-23 17:45:07,116 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...
+2025-12-26 12:18:40,327 - device.device_manager - INFO - Initializing hardware components
+2025-12-26 12:18:40,342 - device.device_manager - WARNING - Could not optimize Raspberry Pi: [Errno 13] Permission denied: '/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor'
+2025-12-26 12:18:40,413 - enhanced_voice - INFO - 🎤 Selected default voice: afrikaans
+2025-12-26 12:18:40,414 - enhanced_voice - INFO - ✅ Speech Synthesizer Initialized
+2025-12-26 12:18:40,414 - enhanced_voice - INFO - ✅ CLEAN PRODUCTION Voice Recognizer Initialized (Mic Index: 1)
+2025-12-26 12:18:40,414 - enhanced_voice - INFO - 🌐 Supported languages: 14 languages
+2025-12-26 12:18:40,414 - enhanced_voice - INFO - 🔍 Service categories: 240 services
+2025-12-26 12:18:40,415 - enhanced_voice - INFO - 🎤 Speech synthesizer ready
+2025-12-26 12:18:40,416 - enhanced_voice - INFO - 🔊 Using ALSA direct access: True
+2025-12-26 12:18:40,416 - __main__ - INFO - 🚀 Production Butler Initialized with 108+ Indian services
+2025-12-26 12:18:40,416 - __main__ - INFO - 🔄 Starting 100% WORKING voice loop...

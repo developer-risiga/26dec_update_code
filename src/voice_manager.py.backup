@@ -1,0 +1,24 @@
+import os
+import time
+
+class VoiceManager:
+    def speak(self, text):
+        print(f"🔊 Butler: {text}")
+        safe = text.replace("'", "").replace('"', '').replace('!', '.').replace('?', '.')
+        os.system(f'pkill espeak-ng 2>/dev/null; espeak-ng -v en+f5 -s 150 "{safe}"')
+    
+    def speak_immediate(self, text):
+        os.system('pkill espeak-ng 2>/dev/null')
+        time.sleep(0.1)
+        self.speak(text)
+
+def welcome(): return "Hello, I am Butler. How can I help you today"
+def listening(): return "I am listening"
+def processing(): return "Let me check that for you"
+def command_received(cmd): return "I heard your command"
+def service_confirmed(svc): return f"Found {svc} service"
+def searching(svc): return f"Searching for {svc} professionals"
+def booking_confirmed(svc): return f"Booking confirmed. Your {svc} will arrive within 2 hours"
+def goodbye(): return "Goodbye"
+
+voice = VoiceManager()

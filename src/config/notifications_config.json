@@ -1,0 +1,10 @@
+{
+    "email": {
+        "smtp_server": "smtp.gmail.com",
+        "smtp_port": 587,
+        "sender_email": "sai@risiga.com",
+        "sender_password": "iiuv iwrx hbdg xmgp",
+        "admin_email": "pushpak@risiga.com"
+    },
+    "test_mode": true
+}
