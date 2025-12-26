@@ -1420,59 +1420,61 @@ class EnhancedVoiceRecognizer:
 
     def check_wake_word(self, text: str) -> bool:
         """
-        Check if text contains wake word with fuzzy matching for all languages
+        Check if text contains wake word with improved matching
         """
         if not text or len(text.strip()) < 2:
             return False
         
         text_lower = text.lower().strip()
         
-        # Check all wake words from all languages
+        # Exact wake words from all languages
         for wake_word in self.wake_words:
-            if text_lower.startswith(wake_word.lower()):
-                print(f"   ✅ Wake word detected at start: '{wake_word}'")
+            wake_lower = wake_word.lower()
+            
+            # Check for exact match at start (highest priority)
+            if text_lower.startswith(wake_lower):
+                print(f"   ✅ EXACT Wake word detected at start: '{wake_word}'")
+                return True
+            
+            # Check for exact word anywhere (but only if it's a complete word)
+            words = text_lower.split()
+            if wake_lower in words:
+                print(f"   ✅ EXACT Wake word detected in text: '{wake_word}'")
                 return True
         
-        # Check if wake word appears anywhere
-        for wake_word in self.wake_words:
-            if wake_word.lower() in text_lower:
-                print(f"   ✅ Wake word detected in text: '{wake_word}'")
-                return True
+        # STRICT fuzzy matching only for common mishearings
+        fuzzy_matches = {
+            'butler': ['butter', 'bottler', 'battler', 'butlers'],
+            'बटलर': ['बट्टर', 'बटलर', 'बट्लर'],
+            'பட்லர்': ['பட்டர்', 'பட்லர்'],
+            'బట్లర్': ['బట్టర్', 'బట్లర్'],
+            'ಬಟ್ಲರ್': ['ಬಟ್ಟರ್', 'ಬಟ್ಲರ್']
+        }
         
-        # Fuzzy matching for common mishearings
-        fuzzy_matches = ['butler', 'butter', 'bottler', 'hitler', 'battler', 
-                        'बटलर', 'बट्टर', 'बटलर', 'बट्लर', 'बटलर',
-                        'பட்லர்', 'பட்டர்', 'பட்லர்',
-                        'బట్లర్', 'బట్టర్', 'బట్లర్',
-                        'ಬಟ್ಲರ್', 'ಬಟ್ಟರ್', 'ಬಟ್ಲರ్']
-        
-        for fuzzy_word in fuzzy_matches:
-            if fuzzy_word in text_lower:
-                # Check for greeting patterns in various languages
-                greeting_words = [
-                    # English
-                    'hey', 'hello', 'hi', 'okay', 'hiya', 'hey there',
-                    # Hindi
-                    'हे', 'नमस्ते', 'हैलो', 'हाय',
-                    # Tamil
-                    'ஏ', 'வணக்கம்', 'ஹலோ', 'ஹாய்',
-                    # Telugu
-                    'హే', 'నమస్తే', 'హలో', 'హాయ్',
-                    # Generic
-                    'ok', 'okey', 'oye'
-                ]
-                
-                words = text_lower.split()
-                for i, word in enumerate(words):
-                    if fuzzy_word in word:
-                        # Check previous word for greeting
-                        if i > 0 and any(greeting in words[i-1] for greeting in greeting_words):
-                            print(f"   ✅ Fuzzy wake word: '{fuzzy_word}' after greeting")
-                            return True
-                        # Check if it's at the start
-                        elif i == 0:
-                            print(f"   ✅ Fuzzy wake word at start: '{fuzzy_word}'")
-                            return True
+        words = text_lower.split()
+        for i, word in enumerate(words):
+            for correct_word, fuzzy_list in fuzzy_matches.items():
+                if word in fuzzy_list:
+                    # Only accept if preceded by a greeting word
+                    greeting_words = [
+                        # English
+                        'hey', 'hello', 'hi', 'hiya',
+                        # Hindi
+                        'हे', 'नमस्ते', 'हैलो',
+                        # Tamil
+                        'ஏ', 'வணக்கம்', 'ஹலோ',
+                        # Telugu
+                        'హే', 'నమస్తే', 'హలో'
+                    ]
+                    
+                    # Check previous word for greeting
+                    if i > 0 and any(greeting in words[i-1] for greeting in greeting_words):
+                        print(f"   ⚠️ STRICT Fuzzy match: '{word}' → '{correct_word}' after greeting")
+                        return True
+                    # Check if it's the first word (might be standalone)
+                    elif i == 0 and len(words) == 1:
+                        print(f"   ⚠️ STRICT Fuzzy match (standalone): '{word}' → '{correct_word}'")
+                        return True
         
         return False
 
