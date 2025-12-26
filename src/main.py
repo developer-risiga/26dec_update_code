@@ -147,7 +147,7 @@ async def process_voice_command(self, command: str):
     sanitized_command = self.validator.sanitize_text(command)
     
     # Step 2: Detect service
-    success, service_type = await self.voice_recognizer.detect_service_keyword(sanitized_command)
+    success, service_type = self.voice_recognizer.detect_service_keyword(sanitized_command)
     
     if success and service_type:
         logger.info(f"✅ Service detected: {service_type}")
@@ -1941,7 +1941,7 @@ class ProductionButler:
         sanitized_command = self.validator.sanitize_text(command)
         
         # Step 2: Detect service - USE THE NEW METHOD
-        success, service_type = await self.voice_recognizer.detect_service_keyword(sanitized_command)
+        success, service_type = self.voice_recognizer.detect_service_keyword(sanitized_command)
         
         if success and service_type:
             logger.info(f"✅ Service detected: {service_type}")
