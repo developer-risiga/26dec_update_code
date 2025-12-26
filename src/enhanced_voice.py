@@ -1190,26 +1190,58 @@ class EnhancedVoiceRecognizer:
             return False
 
     def _record_with_alsa(self, timeout: float, audio_file: str) -> bool:
-        """Record audio using direct ALSA"""
+        """Record audio using direct ALSA - FIXED VERSION"""
         try:
+            # Debug: Show what we're trying to do
+            print(f"   🎤 ALSA Recording: Device hw:{self.mic_device_index},0 for {timeout} seconds")
+            
             cmd = [
-                'arecord', f'- plughw:{self.mic_device_index},0',
+                'arecord',
+                f'-Dplughw:{self.mic_device_index},0',  # FIXED: No space after -D
                 '-f', 'S16_LE',
                 '-r', '16000',
                 '-c', '1',
                 '-d', str(timeout),
+                '-t', 'wav',
                 audio_file
             ]
             
-            proc = subprocess.Popen(cmd,
-                                  stdout=subprocess.DEVNULL,
-                                  stderr=subprocess.DEVNULL)
+            print(f"   🔧 Command: {' '.join(cmd)}")
             
-            time.sleep(timeout)
+            # Run recording with timeout
+            proc = subprocess.Popen(
+                cmd,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                text=True
+            )
+            
+            # Wait for recording to complete
+            time.sleep(timeout + 0.5)  # Add a little extra
+            
+            # Try to terminate gracefully
             proc.terminate()
+            try:
+                proc.wait(timeout=2)
+            except subprocess.TimeoutExpired:
+                proc.kill()
             
-            return os.path.exists(audio_file) and os.path.getsize(audio_file) > 1000
-        except:
+            # Check if file was created and has data
+            if os.path.exists(audio_file):
+                size = os.path.getsize(audio_file)
+                if size > 1000:  # At least 1KB of audio data
+                    print(f"   ✅ ALSA recording successful: {size} bytes")
+                    return True
+                else:
+                    print(f"   ⚠️ ALSA recording too small: {size} bytes")
+                    os.remove(audio_file)
+                    return False
+            else:
+                print(f"   ❌ ALSA recording failed: File not created")
+                return False
+                
+        except Exception as e:
+            print(f"   ❌ ALSA recording error: {e}")
             return False
 
     def listen_direct(self, timeout: float = 10.0, listen_for_wake: bool = False) -> Tuple[bool, str, str]:
@@ -1219,44 +1251,96 @@ class EnhancedVoiceRecognizer:
         context = "wake word" if listen_for_wake else "command"
         print(f"\n🔍 Listening for {context} ({timeout}s)...")
         
+        # First try ALSA if enabled
+        if self.use_alsa:
+            audio_file = f"/tmp/voice_{int(time.time())}.wav"
+            print(f"   🔊 ALSA Recording to: {audio_file}")
+            
+            # Try recording with ALSA
+            if self._record_with_alsa(timeout, audio_file):
+                # Try to recognize the audio
+                return self._process_audio_file(audio_file)
+            else:
+                print("   ⚠️ ALSA failed, trying fallback to speech_recognition...")
+                self.use_alsa = False  # Disable ALSA for next attempt
+        
+        # Fallback to speech_recognition
+        return self._listen_with_speech_recognition(timeout)
+
+    def _process_audio_file(self, audio_file: str) -> Tuple[bool, str, str]:
+        """Process recorded audio file"""
         try:
-            if self.use_alsa:
-                # Use ALSA recording
-                audio_file = f"/tmp/voice_{int(time.time())}.wav"
-                print("   🔊 Recording with ALSA...")
+            with sr.AudioFile(audio_file) as source:
+                print(f"   🔄 Processing audio file: {os.path.getsize(audio_file)} bytes")
+                audio = self.recognizer.record(source)
                 
-                # Record audio
-                if not self._record_with_alsa(timeout, audio_file):
-                    print("   ❌ Failed to record audio")
-                    return False, "", self.current_language
+                # Try multiple languages
+                language_configs = self._get_language_configs()
                 
-                # Recognize audio
+                for lang_code, lang_name in language_configs[:5]:
+                    try:
+                        text = self.recognizer.recognize_google(
+                            audio, 
+                            language=lang_code,
+                            show_all=False
+                        )
+                        
+                        if text and len(text.strip()) > 1:
+                            print(f"   ✅ Heard [{lang_name}]: '{text}'")
+                            
+                            # Clean up file
+                            if os.path.exists(audio_file):
+                                os.remove(audio_file)
+                            
+                            # Set language
+                            lang_to_set = self._map_google_code_to_internal(lang_code)
+                            if lang_to_set:
+                                self.set_current_language(lang_to_set)
+                            
+                            return True, text.strip(), lang_code
+                            
+                    except sr.UnknownValueError:
+                        continue
+                    except sr.RequestError as e:
+                        print(f"   ⚠️ API error for {lang_name}: {e}")
+                        continue
+                
+                # Clean up
+                if os.path.exists(audio_file):
+                    os.remove(audio_file)
+                print("   ⚠️ Voice detected but not understood")
+                return True, "[Voice detected, not understood]", self.current_language
+                
+        except Exception as e:
+            if os.path.exists(audio_file):
+                os.remove(audio_file)
+            print(f"   ❌ Audio processing error: {e}")
+            return False, "", self.current_language
+    
+    def _listen_with_speech_recognition(self, timeout: float) -> Tuple[bool, str, str]:
+        """Fallback using speech_recognition directly"""
+        try:
+            print(f"   🔊 Using speech_recognition fallback...")
+            
+            # Try different device indices
+            for device_idx in [self.mic_device_index, 0, 2, 3]:
                 try:
-                    with sr.AudioFile(audio_file) as source:
-                        audio = self.recognizer.record(source)
+                    print(f"   🔧 Trying device index {device_idx}...")
+                    with sr.Microphone(device_index=device_idx, sample_rate=16000) as source:
+                        self.recognizer.energy_threshold = 300
+                        print("   🎤 Listening (speak clearly)...")
+                        
+                        audio = self.recognizer.listen(
+                            source, 
+                            timeout=timeout,
+                            phrase_time_limit=10
+                        )
+                        
+                        print("   ✅ Audio captured, processing...")
                         
                         # Try multiple languages
-                        language_configs = []
+                        language_configs = self._get_language_configs()
                         
-                        # Add current language first
-                        if self.current_language in self.supported_languages:
-                            language_configs.append((
-                                self.supported_languages[self.current_language]['code'],
-                                self.supported_languages[self.current_language]['name']
-                            ))
-                        
-                        # Add English variants
-                        english_variants = [
-                            ('en-IN', 'English (India)'),
-                            ('en-US', 'English (US)'),
-                            ('en-GB', 'English (UK)'),
-                            ('en', 'English')
-                        ]
-                        for eng_code, eng_name in english_variants:
-                            if (eng_code, eng_name) not in language_configs:
-                                language_configs.append((eng_code, eng_name))
-                        
-                        # Try each language
                         for lang_code, lang_name in language_configs[:5]:
                             try:
                                 text = self.recognizer.recognize_google(
@@ -1267,7 +1351,12 @@ class EnhancedVoiceRecognizer:
                                 
                                 if text and len(text.strip()) > 1:
                                     print(f"   ✅ Heard [{lang_name}]: '{text}'")
-                                    os.remove(audio_file)
+                                    
+                                    # Set language
+                                    lang_to_set = self._map_google_code_to_internal(lang_code)
+                                    if lang_to_set:
+                                        self.set_current_language(lang_to_set)
+                                    
                                     return True, text.strip(), lang_code
                                     
                             except sr.UnknownValueError:
@@ -1276,71 +1365,16 @@ class EnhancedVoiceRecognizer:
                                 print(f"   ⚠️ API error for {lang_name}: {e}")
                                 continue
                         
-                        # Clean up
-                        os.remove(audio_file)
                         print("   ⚠️ Voice detected but not understood")
                         return True, "[Voice detected, not understood]", self.current_language
                         
                 except Exception as e:
-                    if os.path.exists(audio_file):
-                        os.remove(audio_file)
-                    print(f"   ❌ Recognition error: {e}")
-                    return False, "", self.current_language
-                    
-            else:
-                # Use speech_recognition directly
-                with sr.Microphone(device_index=self.mic_device_index, sample_rate=44100) as source:
-                    self.recognizer.energy_threshold = 300
-                    print("   🔊 Listening (speak clearly)...")
-                    
-                    audio = self.recognizer.listen(
-                        source, 
-                        timeout=timeout,
-                        phrase_time_limit=10 if listen_for_wake else 8
-                    )
-                    
-                    print("   ✅ Processing audio...")
-                    
-                    # Try multiple languages
-                    language_configs = []
-                    
-                    if self.current_language in self.supported_languages:
-                        language_configs.append((
-                            self.supported_languages[self.current_language]['code'],
-                            self.supported_languages[self.current_language]['name']
-                        ))
-                    
-                    english_variants = [
-                        ('en-IN', 'English (India)'),
-                        ('en-US', 'English (US)'),
-                        ('en-GB', 'English (UK)'),
-                        ('en', 'English')
-                    ]
-                    for eng_code, eng_name in english_variants:
-                        if (eng_code, eng_name) not in language_configs:
-                            language_configs.append((eng_code, eng_name))
-                    
-                    for lang_code, lang_name in language_configs[:5]:
-                        try:
-                            text = self.recognizer.recognize_google(
-                                audio, 
-                                language=lang_code,
-                                show_all=False
-                            )
-                            
-                            if text and len(text.strip()) > 1:
-                                print(f"   ✅ Heard [{lang_name}]: '{text}'")
-                                return True, text.strip(), lang_code
-                                
-                        except sr.UnknownValueError:
-                            continue
-                        except sr.RequestError as e:
-                            print(f"   ⚠️ API error for {lang_name}: {e}")
-                            continue
-                    
-                    print("   ⚠️ Voice detected but not understood")
-                    return True, "[Voice detected, not understood]", self.current_language
-                    
+                    print(f"   ❌ Device {device_idx} failed: {e}")
+                    continue
+            
+            print("   ❌ All microphone devices failed")
+            return False, "", self.current_language
+            
         except sr.WaitTimeoutError:
             print(f"   ⏱️ Timeout - No speech detected")
             return False, "", self.current_language
@@ -1348,6 +1382,41 @@ class EnhancedVoiceRecognizer:
             print(f"   ❌ Listen error: {e}")
             logger.error(f"Listen error: {e}")
             return False, "", self.current_language
+    
+    def _get_language_configs(self):
+        """Get language configurations for recognition"""
+        language_configs = []
+        
+        # Add current language first
+        if self.current_language in self.supported_languages:
+            language_configs.append((
+                self.supported_languages[self.current_language]['code'],
+                self.supported_languages[self.current_language]['name']
+            ))
+        
+        # Add English variants
+        english_variants = [
+            ('en-IN', 'English (India)'),
+            ('en-US', 'English (US)'),
+            ('en-GB', 'English (UK)'),
+            ('en', 'English')
+        ]
+        for eng_code, eng_name in english_variants:
+            if (eng_code, eng_name) not in language_configs:
+                language_configs.append((eng_code, eng_name))
+        
+        return language_configs
+    
+    def _map_google_code_to_internal(self, google_code: str) -> Optional[str]:
+        """Map Google language code to internal language code"""
+        # Remove region part if present
+        base_code = google_code.split('-')[0] if '-' in google_code else google_code
+        
+        for internal_code, data in self.supported_languages.items():
+            if data['code'].startswith(base_code):
+                return internal_code
+        
+        return None
 
     def check_wake_word(self, text: str) -> bool:
         """
