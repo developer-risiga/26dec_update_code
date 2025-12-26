@@ -495,6 +495,21 @@ class EnhancedVoiceRecognizer:
         logger.info(f"🔍 Service categories: {len(self.service_keywords)} services")
         logger.info(f"🎤 Speech synthesizer ready")
         logger.info(f"🔊 Using ALSA direct access: {use_alsa}")
+
+    def speak_and_wait(self, text: str, language_code: Optional[str] = None):
+        """
+        Speak text and wait for completion - SIMPLE VERSION
+        """
+        if language_code is None:
+            language_code = self.current_language
+        
+        print(f"🔊 Speaking: '{text[:50]}...'")
+        
+        # Use the speech synthesizer
+        self.speech.speak_immediate(text, language_code)
+        
+        # Wait for speech to complete
+        self.speech.wait_until_finished(timeout=5.0)
     
     def _create_comprehensive_service_keywords(self) -> Dict[str, List[str]]:
         """Create comprehensive multi-lingual service keywords (400+ services)"""
