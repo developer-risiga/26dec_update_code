@@ -212,12 +212,13 @@ class EnhancedVoiceRecognizer:
         self.speech = SpeechSynthesizer()
         
         # Optimized settings for USB mic
-        self.recognizer.energy_threshold = 300  # Good starting point
-        self.recognizer.dynamic_energy_threshold = False  # More stable
+        self.recognizer.energy_threshold = 400  # Good starting point
+        self.recognizer.dynamic_energy_threshold = True  # More stable
         self.recognizer.dynamic_energy_adjustment_damping = 0.15
-        self.recognizer.pause_threshold = 1.2  # Slightly longer for better phrase detection
+        self.recognizer.pause_threshold = 0.8  # Slightly longer for better phrase detection
         self.recognizer.phrase_threshold = 0.3
         self.recognizer.non_speaking_duration = 0.5
+        self.recognizer.operation_timeout = None
         
         # ========== INDIAN LANGUAGES CONFIGURATION ==========
         self.supported_languages = {
@@ -1167,18 +1168,25 @@ class EnhancedVoiceRecognizer:
             if self.use_alsa:
                 # Use ALSA for calibration
                 print("1. Using ALSA direct access...")
-                print("2. Calibration complete (ALSA mode)")
+                print("2. Setting optimal parameters...")
+                
+                # Set optimal parameters
+                self.recognizer.energy_threshold = 400
+                self.recognizer.dynamic_energy_threshold = True
+                
+                print(f"   ✅ Energy threshold: {self.recognizer.energy_threshold}")
+                print("3. Calibration complete (ALSA mode)")
                 return True
             else:
-                with sr.Microphone(device_index=self.mic_device_index, sample_rate=44100) as source:
+                with sr.Microphone(device_index=self.mic_device_index, sample_rate=16000) as source:
                     print("1. Stay SILENT for 3 seconds...")
                     time.sleep(3)
                     
                     print("2. Measuring ambient noise...")
-                    self.recognizer.adjust_for_ambient_noise(source, duration=duration)
+                    self.recognizer.adjust_for_ambient_noise(source, duration=2.0)  # Longer duration
                     
                     print("3. Setting fixed threshold...")
-                    self.recognizer.energy_threshold = 300
+                    self.recognizer.energy_threshold = max(400, self.recognizer.energy_threshold)
                     
                     print(f"   ✅ Energy threshold SET TO: {self.recognizer.energy_threshold:.1f}")
                     print("4. Calibration COMPLETE!")
