@@ -1729,6 +1729,39 @@ class ProductionButler:
         self.voice_recognizer = EnhancedVoiceRecognizer()  # Your USB mic
         self.validator = InputValidator()
         self.is_running = True
+
+        self.speaker = None
+        self._init_speaker()  # Initialize speaker
+    
+    def _init_speaker(self):
+        """Initialize text-to-speech engine"""
+        try:
+            self.speaker = pyttsx3.init()
+            self.speaker.setProperty('rate', 150)  # Speed
+            self.speaker.setProperty('volume', 1.0)  # Volume
+            
+            # Get voices
+            voices = self.speaker.getProperty('voices')
+            if len(voices) > 1:
+                self.speaker.setProperty('voice', voices[1].id)  # Female voice
+                
+            print("✅ Text-to-speech engine initialized")
+        except Exception as e:
+            print(f"⚠️ Could not initialize speaker: {e}")
+            self.speaker = None
+    
+    def speak(self, text):
+        """Speak text out loud"""
+        if self.speaker:
+            try:
+                print(f"🔊 Speaking: {text}")
+                self.speaker.say(text)
+                self.speaker.runAndWait()
+                time.sleep(0.5)  # Small pause after speaking
+            except Exception as e:
+                print(f"⚠️ Speech error: {e}")
+        else:
+            print(f"🔊 [Would speak]: {text}")
             
         # ===== COMPREHENSIVE SERVICE DATABASE =====
         # Use the Indian Service Manager with 400+ services
